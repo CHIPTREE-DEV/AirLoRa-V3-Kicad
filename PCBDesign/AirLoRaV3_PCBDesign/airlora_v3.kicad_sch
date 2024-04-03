@@ -1,0 +1,673 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "ce1fe645-5ae2-49a4-b0cc-2b62fa505af7")
+	(paper "A4")
+	(title_block
+		(title "AirLoRa V3")
+	)
+	(lib_symbols)
+	(junction
+		(at 106.68 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b8515f1e-d341-477f-9b84-d839bbe0b459")
+	)
+	(junction
+		(at 106.68 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fded83c6-1fb2-4833-833f-686a2a4e75cc")
+	)
+	(no_connect
+		(at 120.65 111.76)
+		(uuid "678f0471-668b-47bc-a403-0f77b00865a6")
+	)
+	(no_connect
+		(at 120.65 116.84)
+		(uuid "6a5799be-73e6-4fc8-9837-84beeb250fc4")
+	)
+	(no_connect
+		(at 120.65 109.22)
+		(uuid "d4ddce46-fdb1-4c5f-85ce-58abf0dd28ac")
+	)
+	(no_connect
+		(at 120.65 114.3)
+		(uuid "f82f52df-c058-4558-8ad1-f251f5860510")
+	)
+	(wire
+		(pts
+			(xy 157.48 77.47) (xy 187.96 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04355459-118a-4198-898e-344f57367c36")
+	)
+	(wire
+		(pts
+			(xy 157.48 86.36) (xy 187.96 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ab8ea81-18ba-4655-8f47-40edc7ecaaa0")
+	)
+	(wire
+		(pts
+			(xy 106.68 71.12) (xy 106.68 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19f2d729-b7a2-42b3-9d76-b7390099d48c")
+	)
+	(wire
+		(pts
+			(xy 157.48 83.82) (xy 187.96 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c7540b3-8cae-4949-96bc-badfd9c7e964")
+	)
+	(wire
+		(pts
+			(xy 87.63 62.23) (xy 106.68 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "270c4844-3585-4f73-a7dd-3242b2a1a6ea")
+	)
+	(wire
+		(pts
+			(xy 157.48 90.17) (xy 187.96 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f2a7a18-d9c3-4a5c-8011-b2976711e2fe")
+	)
+	(wire
+		(pts
+			(xy 93.98 104.14) (xy 120.65 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f616107-053e-4abb-a658-4ea92539d41a")
+	)
+	(wire
+		(pts
+			(xy 93.98 106.68) (xy 120.65 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c34a5b8-15f0-4870-8202-05daeb8022c2")
+	)
+	(wire
+		(pts
+			(xy 157.48 80.01) (xy 187.96 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4056f52a-41c7-446f-9fcb-88b27b23e3d3")
+	)
+	(wire
+		(pts
+			(xy 157.48 71.12) (xy 187.96 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5972b4f2-d896-42dd-a4b8-66855a85e55c")
+	)
+	(wire
+		(pts
+			(xy 106.68 71.12) (xy 120.65 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fcaf72e-509a-4184-bbd9-c107830b452f")
+	)
+	(wire
+		(pts
+			(xy 157.48 73.66) (xy 187.96 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e389567-07d3-4443-b576-4099ea492990")
+	)
+	(wire
+		(pts
+			(xy 87.63 59.69) (xy 187.96 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "969fd8a0-d77e-4d1a-82bc-8117ac995beb")
+	)
+	(wire
+		(pts
+			(xy 93.98 101.6) (xy 106.68 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99172163-0822-4658-8296-e9c1ae075e50")
+	)
+	(wire
+		(pts
+			(xy 106.68 62.23) (xy 106.68 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a218f6af-0088-42be-ad72-e564bef16a57")
+	)
+	(wire
+		(pts
+			(xy 187.96 62.23) (xy 106.68 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abbe3196-63e1-4e52-9d5e-686bfabfd8bc")
+	)
+	(wire
+		(pts
+			(xy 157.48 92.71) (xy 187.96 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8db4008-28f5-4d53-aadb-98b9bf32707c")
+	)
+	(sheet
+		(at 74.93 99.06)
+		(size 19.05 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 194 0 1.0000)
+		)
+		(uuid "0fe76900-3fef-41a8-aa6f-27268a6f6f64")
+		(property "Sheetname" "STlink"
+			(at 74.93 98.3484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "STlink.kicad_sch"
+			(at 74.93 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3.3V" input
+			(at 93.98 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "68da424e-fc4b-4eb4-a5b8-db35841a8017")
+		)
+		(pin "T_SWCLK" input
+			(at 93.98 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6f252d0d-a2bb-4dd2-8b8b-0f1f2223a53b")
+		)
+		(pin "T_SWDIO" input
+			(at 93.98 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "733c7b9a-e9c7-4614-804c-8f707869045a")
+		)
+		(instances
+			(project "airlora-kicad"
+				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 187.96 55.88)
+		(size 26.67 44.45)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 194 0 1.0000)
+		)
+		(uuid "51adec1c-c556-4645-b650-96b50e0dcbbc")
+		(property "Sheetname" "Sensor"
+			(at 187.96 54.3034 0)
+			(effects
+				(font
+					(size 3 3)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Sensor.kicad_sch"
+			(at 187.96 100.9146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 187.96 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3.3V" input
+			(at 187.96 62.23 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c213262a-c937-4faa-9dc6-478ab2624c8f")
+		)
+		(pin "5V" input
+			(at 187.96 59.69 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1a549a5e-434a-42e5-b269-b82655bb2c46")
+		)
+		(pin "SCL_SHT21" input
+			(at 187.96 90.17 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c9681ee8-b7bf-4852-906f-961ebe50bf8d")
+		)
+		(pin "SDA_SHT21" input
+			(at 187.96 92.71 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "37868faa-f249-4807-83ff-a17b69bd1058")
+		)
+		(pin "TX_NO2" input
+			(at 187.96 73.66 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a2bf808c-34fc-461e-b55d-2e90433eaf36")
+		)
+		(pin "RX_NO2" input
+			(at 187.96 71.12 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d92ce427-d479-4e44-a5c3-ab6fcda1898d")
+		)
+		(pin "TX_PM" input
+			(at 187.96 80.01 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e4e0e187-a7c3-47b9-8063-845a489610bf")
+		)
+		(pin "RX_PM" input
+			(at 187.96 77.47 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f1c161b1-5271-47ac-b2b7-4a912a52d655")
+		)
+		(pin "SDA_CO" input
+			(at 187.96 86.36 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b8f42bfc-1506-4089-bb87-2140dcadbb82")
+		)
+		(pin "SCL_CO" input
+			(at 187.96 83.82 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c1c04f0e-3801-4985-aadd-19afb2d11a0a")
+		)
+		(instances
+			(project "airlora-kicad"
+				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 69.85 49.53)
+		(size 17.78 21.59)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 194 0 1.0000)
+		)
+		(uuid "af8bb3f5-67b6-4471-83fd-9297b14489a9")
+		(property "Sheetname" "Power"
+			(at 69.85 47.9534 0)
+			(effects
+				(font
+					(size 3 3)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 69.85 71.7046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3.3V" output
+			(at 87.63 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b3db3e9a-93ae-4cd7-8a37-6c6c9bbe9c87")
+		)
+		(pin "5V" output
+			(at 87.63 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cd2a4266-e0e0-425a-982b-cffc6864d2f7")
+		)
+		(instances
+			(project "airlora-kicad"
+				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 120.65 67.31)
+		(size 36.83 50.8)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 194 0 1.0000)
+		)
+		(uuid "c23b99ec-411c-4b40-a8bc-26abb1dec7f9")
+		(property "Sheetname" "MCU"
+			(at 120.65 65.7334 0)
+			(effects
+				(font
+					(size 3 3)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 120.65 118.6946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3.3V" input
+			(at 120.65 71.12 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b04f0e24-d707-4dbd-8f9f-ff1a7609b5a9")
+		)
+		(pin "PB13_SCL" input
+			(at 157.48 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ed2b23bc-e387-491d-a6fb-e186a9269c40")
+		)
+		(pin "PB9_SDA" input
+			(at 157.48 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e956f9e9-dde9-4b8f-8fb2-6b91b64748c5")
+		)
+		(pin "T_VCP_RX" input
+			(at 120.65 114.3 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "81d67aa8-552d-42f2-8787-e66d690a0def")
+		)
+		(pin "PB8_SCL" input
+			(at 157.48 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2c891d0f-b53c-41e6-bd32-dee1f94a822f")
+		)
+		(pin "T_VCP_TX" input
+			(at 120.65 116.84 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "81534624-ce16-4a8d-9ac1-95e2bcbf57e0")
+		)
+		(pin "PB14_SDA" input
+			(at 157.48 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "74b9c4e5-542b-48cd-8d19-fad4d9eb48ef")
+		)
+		(pin "PA10_RX" input
+			(at 157.48 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d8ffb609-9a7c-430a-8066-066a86008008")
+		)
+		(pin "PA9_TX" input
+			(at 157.48 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "34033681-a2ce-4ddf-ab0f-72f25fd3ad07")
+		)
+		(pin "T_SWDIO" input
+			(at 120.65 104.14 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1da623b8-0e78-4b70-a657-b1c51d516750")
+		)
+		(pin "PA2_TX" input
+			(at 157.48 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8846e560-c7cf-4f80-b368-406732b52459")
+		)
+		(pin "PA3_RX" input
+			(at 157.48 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6b370285-73dc-4156-8066-05517708bb8f")
+		)
+		(pin "T_SWCLK" input
+			(at 120.65 106.68 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f9f1e4b9-c285-444c-a57c-1bd1c8ae4f6f")
+		)
+		(pin "T_JTDI" input
+			(at 120.65 111.76 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c462acd3-0500-4d4f-b59f-ab8f6e1ba901")
+		)
+		(pin "T_SWO" input
+			(at 120.65 109.22 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ffc1036e-db3b-48c3-a072-81b0ab0c8c16")
+		)
+		(instances
+			(project "airlora-kicad"
+				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314"
+					(page "4")
+				)
+			)
+		)
+	)
+)

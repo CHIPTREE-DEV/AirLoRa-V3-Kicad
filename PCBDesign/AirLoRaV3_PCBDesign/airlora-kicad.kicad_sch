@@ -1,0 +1,83 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "59d971df-d6c1-4ef7-a085-bf08b7b16047")
+	(paper "A4")
+	(title_block
+		(title "AirLoRa V3")
+		(date "2024-03-09")
+		(rev "1")
+	)
+	(lib_symbols)
+	(text "This is the overview page of the project. It is used to includes project\ndescriptions, 3D rendering of the product, legends, etc."
+		(exclude_from_sim no)
+		(at 14.732 30.226 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+			)
+			(justify left top)
+		)
+		(uuid "1c7b917b-5aab-4f40-ab9d-4159bbac226e")
+	)
+	(text "${TITLE}"
+		(exclude_from_sim no)
+		(at 15.24 16.51 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 7.62 7.62)
+				(thickness 1.016)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "e406bd35-d4f5-41c5-92f8-fc26c000c619")
+	)
+	(sheet
+		(at 16.51 52.07)
+		(size 40.64 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 194 0 1.0000)
+		)
+		(uuid "be77b740-d58b-414b-97ce-61f1d1685314")
+		(property "Sheetname" "AirLora V3"
+			(at 16.51 50.9774 0)
+			(effects
+				(font
+					(size 2.032 2.032)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "airlora_v3.kicad_sch"
+			(at 16.51 72.9746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "airlora-kicad"
+				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
