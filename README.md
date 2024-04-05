@@ -1,1 +1,1 @@
-# AirLoRaV3
+# AirLoRa-V3-Kicad
