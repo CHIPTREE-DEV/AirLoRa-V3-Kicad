@@ -9,4 +9,5 @@
   (lib (name "NT2016SA-32M-")(type "KiCad")(uri "${KIPRJMOD}/kicad_library/symbols/NT2016SA-32M-.kicad_sym")(options "")(descr ""))
   (lib (name "BGS12SN6E6327XTSA1")(type "KiCad")(uri "${KIPRJMOD}/kicad_library/symbols/BGS12SN6E6327XTSA1.kicad_sym")(options "")(descr ""))
   (lib (name "SHT21")(type "KiCad")(uri "${KIPRJMOD}/kicad_library/symbols/SHT21.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS7A2633DRVR")(type "KiCad")(uri "${KIPRJMOD}/kicad_library/symbols/TPS7A2633DRVR.kicad_sym")(options "")(descr ""))
 )
