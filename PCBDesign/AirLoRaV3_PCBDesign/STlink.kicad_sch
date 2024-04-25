@@ -298,6 +298,126 @@
 				)
 			)
 		)
+		(symbol "power:+3.3V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -395,9 +515,19 @@
 			)
 		)
 	)
+	(wire
+		(pts
+			(xy 142.24 100.33) (xy 157.48 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "451c980f-d695-45e1-ae28-16f7a6fddd70")
+	)
 	(rectangle
-		(start 96.52 54.61)
-		(end 130.81 78.74)
+		(start 129.54 83.82)
+		(end 163.83 107.95)
 		(stroke
 			(width 0)
 			(type default)
@@ -409,7 +539,7 @@
 	)
 	(text "STLink"
 		(exclude_from_sim no)
-		(at 113.538 56.642 0)
+		(at 146.558 85.852 0)
 		(effects
 			(font
 				(size 2 2)
@@ -421,7 +551,7 @@
 	)
 	(hierarchical_label "T_SWCLK"
 		(shape input)
-		(at 115.57 69.85 0)
+		(at 142.24 97.79 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -433,7 +563,7 @@
 	)
 	(hierarchical_label "T_SWDIO"
 		(shape input)
-		(at 115.57 67.31 0)
+		(at 142.24 95.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -443,21 +573,9 @@
 		)
 		(uuid "abc0aa9f-0982-43ca-bf10-90ca018ed875")
 	)
-	(hierarchical_label "3.3V"
-		(shape input)
-		(at 115.57 72.39 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fb3e6402-1ecb-47fc-8fe0-08fabb55078f")
-	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x04")
-		(at 110.49 72.39 180)
+		(at 137.16 100.33 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -466,7 +584,7 @@
 		(fields_autoplaced yes)
 		(uuid "18cb7728-9443-420a-8c37-a30b17ad6db4")
 		(property "Reference" "J6"
-			(at 110.49 60.96 0)
+			(at 137.16 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -474,7 +592,7 @@
 			)
 		)
 		(property "Value" "UART2"
-			(at 110.49 63.5 0)
+			(at 137.16 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -482,7 +600,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
-			(at 110.49 72.39 0)
+			(at 137.16 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -491,7 +609,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 110.49 72.39 0)
+			(at 137.16 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -500,7 +618,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 110.49 72.39 0)
+			(at 137.16 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -531,7 +649,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 115.57 74.93 90)
+		(at 142.24 102.87 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -540,7 +658,7 @@
 		(fields_autoplaced yes)
 		(uuid "28bfe7c9-7462-4334-abce-f2f2533baa79")
 		(property "Reference" "#PWR043"
-			(at 121.92 74.93 0)
+			(at 148.59 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -549,7 +667,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 119.38 74.9299 90)
+			(at 146.05 102.8699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -558,7 +676,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 74.93 0)
+			(at 142.24 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -567,7 +685,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 74.93 0)
+			(at 142.24 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -576,7 +694,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 115.57 74.93 0)
+			(at 142.24 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -591,6 +709,72 @@
 			(project "airlora-kicad"
 				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/0fe76900-3fef-41a8-aa6f-27268a6f6f64"
 					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 157.48 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3eb80f3c-358d-414c-9d1f-52e7b799c207")
+		(property "Reference" "#PWR044"
+			(at 157.48 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 157.48 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 157.48 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d9b09a5f-9b0d-4f1e-a27d-6c9e83ab55a9")
+		)
+		(instances
+			(project "airlora-kicad"
+				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/0fe76900-3fef-41a8-aa6f-27268a6f6f64"
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
