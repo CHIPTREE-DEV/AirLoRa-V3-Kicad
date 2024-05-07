@@ -9,6 +9,10 @@
 	)
 	(lib_symbols)
 	(no_connect
+		(at 147.32 113.03)
+		(uuid "5abf0524-bd26-49b1-b0d5-2fafdd4fe447")
+	)
+	(no_connect
 		(at 110.49 121.92)
 		(uuid "678f0471-668b-47bc-a403-0f77b00865a6")
 	)
@@ -17,12 +21,34 @@
 		(uuid "6a5799be-73e6-4fc8-9837-84beeb250fc4")
 	)
 	(no_connect
+		(at 147.32 123.19)
+		(uuid "c5716287-638a-4be4-9093-dd58d1806245")
+	)
+	(no_connect
+		(at 147.32 115.57)
+		(uuid "c989e00e-3dfc-406a-9bfd-6f52f9846448")
+	)
+	(no_connect
 		(at 110.49 119.38)
 		(uuid "d4ddce46-fdb1-4c5f-85ce-58abf0dd28ac")
 	)
 	(no_connect
+		(at 110.49 87.63)
+		(uuid "e3e37985-12f5-40f4-9523-3fa9eeae08fd")
+	)
+	(no_connect
 		(at 110.49 124.46)
 		(uuid "f82f52df-c058-4558-8ad1-f251f5860510")
+	)
+	(wire
+		(pts
+			(xy 147.32 120.65) (xy 180.34 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2222f559-2010-4dfe-aaf5-95346405a585")
 	)
 	(wire
 		(pts
@@ -33,16 +59,6 @@
 			(type default)
 		)
 		(uuid "2f616107-053e-4abb-a658-4ea92539d41a")
-	)
-	(wire
-		(pts
-			(xy 147.32 115.57) (xy 180.34 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32805532-a0bd-4d8e-9ca0-ade56644ee7b")
 	)
 	(wire
 		(pts
@@ -96,13 +112,33 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 76.2) (xy 95.25 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c3d7e7d-2ef3-4cba-8087-df4ae8ed4397")
+	)
+	(wire
+		(pts
+			(xy 95.25 85.09) (xy 110.49 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ef75bf6-2d6a-4ae8-a8b5-da65c062fba2")
+	)
+	(wire
+		(pts
 			(xy 147.32 118.11) (xy 180.34 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "700fb2b0-b511-48b0-8d44-68b00116b325")
+		(uuid "6b8ba887-4845-4383-b9cd-7d1c4ca97d2f")
 	)
 	(wire
 		(pts
@@ -136,6 +172,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 76.2) (xy 95.25 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cf17c04-7bed-4218-936b-5c010bbd855f")
+	)
+	(wire
+		(pts
 			(xy 147.32 92.71) (xy 180.34 92.71)
 		)
 		(stroke
@@ -152,17 +198,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "b62fd6b5-7d1e-42a1-8119-4a7ac876dda6")
-	)
-	(wire
-		(pts
-			(xy 147.32 113.03) (xy 180.34 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5a85fbd-09b7-469b-8a2f-aae26515d357")
+		(uuid "d061a13f-cc50-4350-a084-1d38fd64b153")
 	)
 	(sheet
 		(at 64.77 109.22)
@@ -261,26 +297,6 @@
 				)
 				(hide yes)
 			)
-		)
-		(pin "SCL_SHT21" input
-			(at 180.34 113.03 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "c9681ee8-b7bf-4852-906f-961ebe50bf8d")
-		)
-		(pin "SDA_SHT21" input
-			(at 180.34 115.57 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "37868faa-f249-4807-83ff-a17b69bd1058")
 		)
 		(pin "TX_NO2" input
 			(at 180.34 83.82 180)
@@ -382,6 +398,16 @@
 			)
 			(uuid "8b499c2c-a44c-4594-a9cb-63ea1faa0d0b")
 		)
+		(pin "DHT" input
+			(at 180.34 120.65 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f5843153-b562-484c-9eec-0c330e597061")
+		)
 		(instances
 			(project "airlora-kicad"
 				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314"
@@ -420,6 +446,16 @@
 				)
 				(justify left top)
 			)
+		)
+		(pin "En" input
+			(at 83.82 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "21c34e74-ff41-404b-a91b-1119f59c5af0")
 		)
 		(instances
 			(project "airlora-kicad"
@@ -601,12 +637,12 @@
 			(uuid "ffc1036e-db3b-48c3-a072-81b0ab0c8c16")
 		)
 		(pin "PA4" input
-			(at 147.32 86.36 0)
+			(at 110.49 87.63 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 			(uuid "86039de2-a5aa-4b79-9e09-8bb08f360235")
 		)
@@ -631,7 +667,7 @@
 			(uuid "4eac0e9b-6941-4677-ad07-86b71a40cda9")
 		)
 		(pin "PA7" input
-			(at 147.32 118.11 0)
+			(at 147.32 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -639,6 +675,46 @@
 				(justify right)
 			)
 			(uuid "43f7e433-91e2-434e-b598-553c5ae67f79")
+		)
+		(pin "PA8" input
+			(at 147.32 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2e0b5fed-dff0-4be4-9e5d-2ca25062120d")
+		)
+		(pin "PA12" input
+			(at 110.49 85.09 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b79e4f2d-5814-4b89-a2ac-34bb2db83125")
+		)
+		(pin "PB2" input
+			(at 147.32 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1e877830-3d83-4a13-b25e-c1509be97ce1")
+		)
+		(pin "PA11" input
+			(at 147.32 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c913a17c-0d85-4e66-8344-1da767a110b1")
 		)
 		(instances
 			(project "airlora-kicad"

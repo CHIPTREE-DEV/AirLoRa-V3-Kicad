@@ -583,7 +583,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18cb7728-9443-420a-8c37-a30b17ad6db4")
-		(property "Reference" "J6"
+		(property "Reference" "J7"
 			(at 137.16 88.9 0)
 			(effects
 				(font
@@ -641,7 +641,7 @@
 		(instances
 			(project "airlora-kicad"
 				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/0fe76900-3fef-41a8-aa6f-27268a6f6f64"
-					(reference "J6")
+					(reference "J7")
 					(unit 1)
 				)
 			)
