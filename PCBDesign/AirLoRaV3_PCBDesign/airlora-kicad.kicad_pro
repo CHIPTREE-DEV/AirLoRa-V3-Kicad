@@ -498,7 +498,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "airlora-kicad.step",
       "svg": "",
       "vrml": ""
     },
@@ -808,6 +808,10 @@
     [
       "0fe76900-3fef-41a8-aa6f-27268a6f6f64",
       "STlink"
+    ],
+    [
+      "eab4a250-4bd5-4f82-b1cd-88a390e22a6b",
+      "MCU Sub"
     ]
   ],
   "text_variables": {}

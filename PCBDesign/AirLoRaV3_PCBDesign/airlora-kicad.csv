@@ -1,9 +1,9 @@
 Reference,Value,Datasheet,Footprint,Qty,DNP,LCSC,MFR
 C1,10uF,~,Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,1,,,
-"C2,C4",0.1uF,~,Capacitor_SMD:C_0603_1608Metric,2,,,
+"C2,C4,C41",0.1uF,~,Capacitor_SMD:C_0603_1608Metric,3,,,
 C3,75pF,~,Capacitor_SMD:C_0603_1608Metric,1,,,
-"C5,C6",22uF,~,-- mixed values --,2,,,
-"C7,C8",1uF,~,Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,2,,,
+"C5,C6",22uF,~,Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,2,,,
+"C7,C8",1uF,~,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,2,,,
 "C9,C10",3.3pF,~,Capacitor_SMD:C_0603_1608Metric,2,,,
 "C11,C37,C38,C40",33pF,~,Capacitor_SMD:C_0603_1608Metric,4,,,
 "C12,C15",1nF,~,Capacitor_SMD:C_0603_1608Metric,2,,,
@@ -40,7 +40,7 @@ R7,1.96M,~,Resistor_SMD:R_0603_1608Metric,1,,,
 R8,1.18M,~,Resistor_SMD:R_0603_1608Metric,1,,,
 "R10,R11",100,~,Resistor_SMD:R_0603_1608Metric,2,,,
 R12,220,~,Resistor_SMD:R_0603_1608Metric,1,,,
-"R14,R15,R16,R17",1K,~,Resistor_SMD:R_0603_1608Metric,4,,,
+"R13,R14,R15,R16,R17",1K,~,Resistor_SMD:R_0603_1608Metric,5,,,
 SW1,SW_Push,~,Button_Switch_SMD:SW_Push_1P1T_NO_Vertical_Wuerth_434133025816,1,,,
 U1,TPS54202DDC,http://www.ti.com/lit/ds/symlink/tps54202.pdf,Package_TO_SOT_SMD:SOT-23-6,1,,C191884,TPS54202DDCR
 U2,TPS7A2633DRVR,,footprint:TPS7A2633DRVR,1,, C2876256, TPS7A2633DRVR
