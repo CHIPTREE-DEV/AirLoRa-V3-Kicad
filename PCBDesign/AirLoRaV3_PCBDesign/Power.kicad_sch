@@ -463,7 +463,7 @@
 				)
 			)
 		)
-		(symbol "Device:D"
+		(symbol "Device:D_Zener"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
@@ -478,7 +478,7 @@
 					)
 				)
 			)
-			(property "Value" "D"
+			(property "Value" "D_Zener"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -504,7 +504,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Diode"
+			(property "Description" "Zener diode"
 				(at 0 0 0)
 				(effects
 					(font
@@ -531,19 +531,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "D_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			(symbol "D_Zener_0_1"
 				(polyline
 					(pts
 						(xy 1.27 0) (xy -1.27 0)
@@ -558,7 +546,19 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -569,7 +569,7 @@
 					)
 				)
 			)
-			(symbol "D_1_1"
+			(symbol "D_Zener_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -1247,6 +1247,317 @@
 				)
 			)
 		)
+		(symbol "Simulation_SPICE:PMOS"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q1"
+				(at 8.89 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ZVP2106GTA"
+				(at 6.35 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "P-MOSFET transistor, drain/source/gate"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "PMOS"
+				(at 0 -17.145 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Type" "VDMOS"
+				(at 0 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=D 2=G 3=S"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET simulation"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PMOS_0_1"
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "PMOS_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "TPS7A2633DRVR:TPS7A2633DRVR"
 			(pin_names
 				(offset 1.016)
@@ -1909,6 +2220,12 @@
 		)
 	)
 	(junction
+		(at 146.05 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03c4cdb8-4ed6-47ef-a920-5c0e3e7a726a")
+	)
+	(junction
 		(at 133.35 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1921,10 +2238,22 @@
 		(uuid "06597ec2-542a-4d20-be8a-311aaeea1907")
 	)
 	(junction
+		(at 146.05 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "08277317-5480-415b-8a40-75efa1456073")
+	)
+	(junction
 		(at 243.84 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "093af7b4-df30-4b66-8eda-03cc2dc86c52")
+	)
+	(junction
+		(at 58.42 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ab95091-620f-4d7c-ad6b-a4a7e936fcc4")
 	)
 	(junction
 		(at 254 90.17)
@@ -1933,10 +2262,22 @@
 		(uuid "0f5e76d6-f9cb-44fb-9dd4-2f5504e60611")
 	)
 	(junction
+		(at 135.89 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "129270d8-43af-4164-bdf0-9a8eb7282a19")
+	)
+	(junction
 		(at 148.59 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "13a9774f-8fc4-4be0-9b91-32fe85302133")
+	)
+	(junction
+		(at 82.55 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "14e1752d-eca2-4237-a85d-8a17b8e262eb")
 	)
 	(junction
 		(at 254 100.33)
@@ -1949,6 +2290,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2029d5f4-9210-4506-9714-2035e58f34c9")
+	)
+	(junction
+		(at 146.05 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e49d90e-9755-4d2b-863f-20471ab58bf5")
 	)
 	(junction
 		(at 254 80.01)
@@ -1991,6 +2338,30 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "862ce121-bfa4-4e59-a441-4dcc11aff1a2")
+	)
+	(junction
+		(at 154.94 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d91314c-b4d7-4179-8b9c-2a8ba528ce99")
+	)
+	(junction
+		(at 90.17 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8edf32f0-3c63-4c69-8aea-a9725ecefce1")
+	)
+	(junction
+		(at 64.77 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aeb48ed3-8f9a-498e-bdc5-2aba87959859")
+	)
+	(junction
+		(at 140.97 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b09e7000-03cd-4b85-9053-7b694ae40620")
 	)
 	(junction
 		(at 148.59 87.63)
@@ -2041,10 +2412,28 @@
 		(uuid "e84de751-208d-4997-9f1e-bdee4bb1f4d2")
 	)
 	(junction
+		(at 154.94 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eacff672-e3f5-428e-b74c-8bb86d2905cb")
+	)
+	(junction
+		(at 130.81 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f08784d2-85d6-4ecd-b707-4cc31cf0b61c")
+	)
+	(junction
 		(at 190.5 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f5d07d84-c4d1-4797-a0ba-8a576e112da6")
+	)
+	(junction
+		(at 54.61 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f73c9831-ab9b-41df-8a66-feaead1df7d6")
 	)
 	(junction
 		(at 157.48 77.47)
@@ -2094,6 +2483,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 125.73) (xy 95.25 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09848562-cc1a-48d9-80cc-0f8dec759ef7")
+	)
+	(wire
+		(pts
 			(xy 190.5 80.01) (xy 190.5 74.93)
 		)
 		(stroke
@@ -2121,6 +2520,16 @@
 			(type default)
 		)
 		(uuid "0ea8ae80-e6df-49b0-95d2-d7610d863f89")
+	)
+	(wire
+		(pts
+			(xy 154.94 125.73) (xy 166.37 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fa8b9a4-fc6f-4d1d-b4ac-f6426c1a4b5b")
 	)
 	(wire
 		(pts
@@ -2171,6 +2580,16 @@
 			(type default)
 		)
 		(uuid "1a48e55a-3117-4e07-b044-87aa332d1918")
+	)
+	(wire
+		(pts
+			(xy 58.42 92.71) (xy 58.42 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a695d80-c05b-43ec-9e58-7d88d0b5debf")
 	)
 	(wire
 		(pts
@@ -2234,16 +2653,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 80.01) (xy 54.61 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "265a1d1a-3d15-41db-b86c-235efc2a709b")
-	)
-	(wire
-		(pts
 			(xy 157.48 97.79) (xy 157.48 92.71)
 		)
 		(stroke
@@ -2251,6 +2660,16 @@
 			(type default)
 		)
 		(uuid "2821b136-6426-49b5-a5ab-253f54ba3259")
+	)
+	(wire
+		(pts
+			(xy 130.81 135.89) (xy 146.05 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b8bb4c2-e985-4d92-b0b8-31d6885b6543")
 	)
 	(wire
 		(pts
@@ -2284,6 +2703,26 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 93.98) (xy 58.42 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3278a99c-f640-4d12-8f53-dc2bc3a729de")
+	)
+	(wire
+		(pts
+			(xy 58.42 83.82) (xy 64.77 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3613ee1e-8aba-47d2-a914-566d9d861cea")
+	)
+	(wire
+		(pts
 			(xy 262.89 86.36) (xy 262.89 80.01)
 		)
 		(stroke
@@ -2304,13 +2743,13 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 80.01) (xy 52.07 83.82)
+			(xy 154.94 139.7) (xy 154.94 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3b64774c-aae7-4b19-a268-4679388ff551")
+		(uuid "3b52f969-cdff-45e4-b2df-f6586de129e4")
 	)
 	(wire
 		(pts
@@ -2334,6 +2773,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 83.82) (xy 58.42 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "418af710-152d-452c-b293-0b4e6f3c5090")
+	)
+	(wire
+		(pts
 			(xy 238.76 85.09) (xy 240.03 85.09)
 		)
 		(stroke
@@ -2351,6 +2800,26 @@
 			(type default)
 		)
 		(uuid "47f86109-9f37-4c6b-8584-983869131218")
+	)
+	(wire
+		(pts
+			(xy 63.5 74.93) (xy 64.77 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ac4f841-83ba-4ec7-84eb-6f004d91250c")
+	)
+	(wire
+		(pts
+			(xy 49.53 93.98) (xy 54.61 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b90013f-f0fd-4ac0-91cc-3f85ce9704c6")
 	)
 	(wire
 		(pts
@@ -2374,6 +2843,26 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 146.05) (xy 130.81 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50d70a31-6913-47f9-819e-a7605c7db247")
+	)
+	(wire
+		(pts
+			(xy 166.37 125.73) (xy 166.37 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53c5453e-c3a7-4ef4-bde1-0e7fc0b1df36")
+	)
+	(wire
+		(pts
 			(xy 238.76 95.25) (xy 238.76 100.33)
 		)
 		(stroke
@@ -2381,6 +2870,46 @@
 			(type default)
 		)
 		(uuid "57f47d22-1c8c-4881-a47c-9927a05ec78e")
+	)
+	(wire
+		(pts
+			(xy 130.81 125.73) (xy 140.97 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dd8763f-f403-4fc2-a0be-96d8f7d67b65")
+	)
+	(wire
+		(pts
+			(xy 140.97 125.73) (xy 146.05 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e2aca2d-fef8-446d-9be0-5f1e11411633")
+	)
+	(wire
+		(pts
+			(xy 82.55 138.43) (xy 82.55 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "622c1f62-3081-4bcc-8ac6-674684c1f616")
+	)
+	(wire
+		(pts
+			(xy 130.81 140.97) (xy 130.81 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "639d0c81-7969-4d2e-9226-e27153b48a23")
 	)
 	(wire
 		(pts
@@ -2401,6 +2930,26 @@
 			(type default)
 		)
 		(uuid "676d8a49-1ef7-40f4-a8b9-59d7e295d083")
+	)
+	(wire
+		(pts
+			(xy 140.97 130.81) (xy 139.7 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6927f530-cbf3-4a5d-abd7-87b2d883e59d")
+	)
+	(wire
+		(pts
+			(xy 166.37 134.62) (xy 166.37 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6971601a-292a-4815-b826-944e110e1399")
 	)
 	(wire
 		(pts
@@ -2454,6 +3003,26 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 125.73) (xy 90.17 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8880d4d6-c7ce-4585-a58f-ed124f6a09b5")
+	)
+	(wire
+		(pts
+			(xy 146.05 133.35) (xy 146.05 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a707666-e5e4-4eac-80e7-e6852c41fc72")
+	)
+	(wire
+		(pts
 			(xy 121.92 77.47) (xy 133.35 77.47)
 		)
 		(stroke
@@ -2471,16 +3040,6 @@
 			(type default)
 		)
 		(uuid "92aeafde-861c-4add-a73b-e2d19a3e56ae")
-	)
-	(wire
-		(pts
-			(xy 54.61 83.82) (xy 57.15 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "934e9346-de61-4d75-8a46-1879a12ed79b")
 	)
 	(wire
 		(pts
@@ -2524,7 +3083,17 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 74.93) (xy 78.74 74.93)
+			(xy 58.42 85.09) (xy 58.42 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d828002-9db8-41ed-992b-c629f434a95a")
+	)
+	(wire
+		(pts
+			(xy 64.77 74.93) (xy 78.74 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2564,6 +3133,26 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 146.05) (xy 130.81 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abe1f4b8-88c3-47a1-9cbd-ad0f5222fa23")
+	)
+	(wire
+		(pts
+			(xy 95.25 130.81) (xy 90.17 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aebe5d84-486d-4c2e-9061-9612669f1d86")
+	)
+	(wire
+		(pts
 			(xy 274.32 88.9) (xy 274.32 92.71)
 		)
 		(stroke
@@ -2591,6 +3180,16 @@
 			(type default)
 		)
 		(uuid "b9912e61-3375-4a5d-a64c-26c6f7b8dd7c")
+	)
+	(wire
+		(pts
+			(xy 130.81 130.81) (xy 132.08 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba9b3f9e-ce24-497b-a13d-c0ba9765ce3e")
 	)
 	(wire
 		(pts
@@ -2624,6 +3223,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 125.73) (xy 140.97 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb3a384c-1ec4-45a8-a634-a86abf26745f")
+	)
+	(wire
+		(pts
 			(xy 134.62 80.01) (xy 142.24 80.01)
 		)
 		(stroke
@@ -2634,6 +3243,36 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 72.39) (xy 49.53 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2ca9e74-957f-491b-bf36-cd099f6b99a1")
+	)
+	(wire
+		(pts
+			(xy 146.05 125.73) (xy 154.94 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9e0d8b2-377d-46d9-babb-300dad72803f")
+	)
+	(wire
+		(pts
+			(xy 130.81 138.43) (xy 135.89 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db9f8f1b-bd4c-4af8-9a64-530b18cec727")
+	)
+	(wire
+		(pts
 			(xy 142.24 87.63) (xy 148.59 87.63)
 		)
 		(stroke
@@ -2641,6 +3280,26 @@
 			(type default)
 		)
 		(uuid "dc876eea-7468-44b3-9e88-df40acec844e")
+	)
+	(wire
+		(pts
+			(xy 82.55 130.81) (xy 82.55 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfd6ec27-8a47-491a-a6c9-7a276cf6c048")
+	)
+	(wire
+		(pts
+			(xy 135.89 138.43) (xy 135.89 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e185a6ba-e681-4653-9a4d-a243788d88f5")
 	)
 	(wire
 		(pts
@@ -2664,13 +3323,33 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 91.44) (xy 52.07 91.44)
+			(xy 154.94 132.08) (xy 154.94 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e66ff775-807e-4bff-8bf4-ebbc2f76df00")
+		(uuid "e73d3df3-ae10-4f1c-bf9a-b426db29c5b2")
+	)
+	(wire
+		(pts
+			(xy 46.99 74.93) (xy 53.34 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e954eb68-6152-439e-9265-2a5fad413345")
+	)
+	(wire
+		(pts
+			(xy 154.94 146.05) (xy 166.37 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea0d38dd-8ec0-4e75-b90d-ba96447258d6")
 	)
 	(wire
 		(pts
@@ -2684,6 +3363,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 74.93) (xy 64.77 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb5cc722-a70b-4226-bfb2-b55e66a9720a")
+	)
+	(wire
+		(pts
 			(xy 274.32 80.01) (xy 274.32 81.28)
 		)
 		(stroke
@@ -2691,6 +3380,16 @@
 			(type default)
 		)
 		(uuid "ed1d2db3-c4c4-4406-b3d8-e0f025c52e4b")
+	)
+	(wire
+		(pts
+			(xy 90.17 130.81) (xy 90.17 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee04d126-aa0f-4e4d-82cd-5ecc8d10faa8")
 	)
 	(wire
 		(pts
@@ -2711,6 +3410,46 @@
 			(type default)
 		)
 		(uuid "f2dcb2b9-4e5c-47bb-8fbc-2458f7d8b59a")
+	)
+	(wire
+		(pts
+			(xy 46.99 72.39) (xy 49.53 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f44876c6-0ff9-49b2-9610-627fc3bac83c")
+	)
+	(wire
+		(pts
+			(xy 154.94 146.05) (xy 146.05 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f567dbf6-45a5-4413-9845-c6e9e933f0a0")
+	)
+	(wire
+		(pts
+			(xy 146.05 146.05) (xy 135.89 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6e9e89a-dd08-4d1b-b473-613384b84c9e")
+	)
+	(wire
+		(pts
+			(xy 146.05 143.51) (xy 146.05 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8d47d6b-b37d-4905-b9c3-f1087b79e4aa")
 	)
 	(wire
 		(pts
@@ -2744,16 +3483,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 83.82) (xy 57.15 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc7b9fc7-4037-405d-af71-b082a6c99bf8")
-	)
-	(wire
-		(pts
 			(xy 140.97 77.47) (xy 148.59 77.47)
 		)
 		(stroke
@@ -2784,7 +3513,7 @@
 	)
 	(rectangle
 		(start 36.83 53.34)
-		(end 173.99 109.22)
+		(end 173.99 154.94)
 		(stroke
 			(width 0)
 			(type default)
@@ -2821,7 +3550,7 @@
 	)
 	(text "BuckConverter 12V - 5V\n "
 		(exclude_from_sim no)
-		(at 103.886 66.548 0)
+		(at 97.028 66.548 0)
 		(effects
 			(font
 				(size 2 2)
@@ -2844,6 +3573,28 @@
 			(justify left bottom)
 		)
 		(uuid "ee920a1c-94a2-417a-ad79-4289eb3871ed")
+	)
+	(global_label "3.3V"
+		(shape input)
+		(at 166.37 125.73 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5299fa35-f026-4d2a-89a7-6975f0debb18")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 166.37 118.6324 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "12V"
 		(shape input)
@@ -2891,44 +3642,22 @@
 	)
 	(global_label "12V"
 		(shape input)
-		(at 76.2 74.93 180)
+		(at 76.2 74.93 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "c415a479-3313-478b-8b16-e3325d7b4fdc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.7072 74.93 0)
+			(at 76.2 68.4372 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "12V"
-		(shape input)
-		(at 48.26 91.44 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e83a9cec-424f-4619-8284-806f045b1b63")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.7672 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -2955,7 +3684,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04438aa6-73a9-4293-b350-791248d76e9c")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR07"
 			(at 262.89 83.82 0)
 			(effects
 				(font
@@ -3005,7 +3734,7 @@
 		(instances
 			(project "airlora-kicad"
 				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/af8bb3f5-67b6-4471-83fd-9297b14489a9"
-					(reference "#PWR05")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -3021,7 +3750,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0974125e-b1dd-4720-9626-3d89f691749a")
-		(property "Reference" "R5"
+		(property "Reference" "R9"
 			(at 168.91 92.7099 0)
 			(effects
 				(font
@@ -3111,7 +3840,7 @@
 		(instances
 			(project "airlora-kicad"
 				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/af8bb3f5-67b6-4471-83fd-9297b14489a9"
-					(reference "R5")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -3127,7 +3856,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1f338476-4ab3-4967-9362-84ac39dbdd56")
-		(property "Reference" "C6"
+		(property "Reference" "C8"
 			(at 162.814 89.154 0)
 			(effects
 				(font
@@ -3217,7 +3946,284 @@
 		(instances
 			(project "airlora-kicad"
 				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/af8bb3f5-67b6-4471-83fd-9297b14489a9"
-					(reference "C6")
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 166.37 130.81 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f6d44fb-7085-43be-a910-7b4b3c36aefa")
+		(property "Reference" "D3"
+			(at 170.18 131.1274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 170.18 133.6674 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 166.37 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 166.37 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 166.37 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 166.37 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 166.37 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 166.37 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "510c3c53-2a48-46ef-b971-3d114157dcc4")
+		)
+		(pin "1"
+			(uuid "1284dc1c-11e0-46e8-b051-15868956772d")
+		)
+		(instances
+			(project "airlora-kicad"
+				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/af8bb3f5-67b6-4471-83fd-9297b14489a9"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 54.61 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2952f898-4f7f-4445-85b1-59c4be8ce90e")
+		(property "Reference" "#PWR01"
+			(at 54.61 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 54.61 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 54.61 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd580edb-1187-40ab-bb9b-d845c473547b")
+		)
+		(instances
+			(project "airlora-kicad"
+				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/af8bb3f5-67b6-4471-83fd-9297b14489a9"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 82.55 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2ae5675f-4387-450f-b238-9662502098bd")
+		(property "Reference" "C2"
+			(at 85.344 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 85.344 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 83.5152 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 82.55 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 82.55 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 82.55 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 82.55 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 82.55 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1e66f92e-aded-4973-b838-dbfb8e1bb6ac")
+		)
+		(pin "1"
+			(uuid "f838abfc-1ae2-4a9f-8d64-3c5aa3d633a9")
+		)
+		(instances
+			(project "airlora-kicad"
+				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/af8bb3f5-67b6-4471-83fd-9297b14489a9"
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -3232,7 +4238,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "36692c90-e88c-4b86-bb94-337b7bedf5b5")
-		(property "Reference" "R2"
+		(property "Reference" "R3"
 			(at 136.144 82.55 0)
 			(effects
 				(font
@@ -3322,7 +4328,7 @@
 		(instances
 			(project "airlora-kicad"
 				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/af8bb3f5-67b6-4471-83fd-9297b14489a9"
-					(reference "R2")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -3338,7 +4344,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3993ecd0-af5f-41bd-9f51-906fed540d0c")
-		(property "Reference" "R9"
+		(property "Reference" "R14"
 			(at 276.86 95.2499 0)
 			(effects
 				(font
@@ -3428,7 +4434,113 @@
 		(instances
 			(project "airlora-kicad"
 				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/af8bb3f5-67b6-4471-83fd-9297b14489a9"
-					(reference "R9")
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 146.05 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a22d8ac-1eee-4f53-9825-f45d07c6c48e")
+		(property "Reference" "R8"
+			(at 148.59 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.18M"
+			(at 148.59 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 144.272 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 146.05 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 146.05 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 146.05 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 146.05 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 146.05 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11ff7eed-6039-48b3-a092-35e6d59e2644")
+		)
+		(pin "2"
+			(uuid "d213c94b-dbab-464f-ab4a-90791e7aefbe")
+		)
+		(instances
+			(project "airlora-kicad"
+				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/af8bb3f5-67b6-4471-83fd-9297b14489a9"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -3444,7 +4556,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3cd84d0c-f8ce-43c0-9d67-f7c09e4af298")
-		(property "Reference" "R8"
+		(property "Reference" "R13"
 			(at 256.54 92.7099 0)
 			(effects
 				(font
@@ -3534,7 +4646,7 @@
 		(instances
 			(project "airlora-kicad"
 				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/af8bb3f5-67b6-4471-83fd-9297b14489a9"
-					(reference "R8")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -3550,7 +4662,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47ed9bfc-4bea-4a13-b41c-6f173a4db905")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 220.98 72.39 0)
 			(effects
 				(font
@@ -3812,7 +4924,276 @@
 		(instances
 			(project "airlora-kicad"
 				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/af8bb3f5-67b6-4471-83fd-9297b14489a9"
-					(reference "U2")
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:PMOS")
+		(at 58.42 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a50355e-badb-40ba-8d18-7393aaf1a5da")
+		(property "Reference" "Q1"
+			(at 58.42 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ZVP2106GTA"
+			(at 58.42 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(at 55.88 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 71.12 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "P-MOSFET transistor, drain/source/gate"
+			(at 58.42 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "PMOS"
+			(at 75.565 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 77.47 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 73.66 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3111136f-3764-4f4f-b29b-0292ffeebc28")
+		)
+		(pin "1"
+			(uuid "9d6ea7b1-e338-4472-babd-303fb789c14d")
+		)
+		(pin "2"
+			(uuid "59d5837d-4500-4420-adc4-005e5376d6cc")
+		)
+		(instances
+			(project "airlora-kicad"
+				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/af8bb3f5-67b6-4471-83fd-9297b14489a9"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 154.94 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4e48601c-61bd-4974-82b5-7d385f0eb7ea")
+		(property "Reference" "C7"
+			(at 157.734 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 157.734 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 155.9052 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 154.94 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 154.94 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 154.94 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 154.94 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "19af794f-af38-49c4-92eb-5ca81b47c5d1")
+		)
+		(pin "1"
+			(uuid "8259e89e-2af7-4be9-8c40-b9c459f2a0bf")
+		)
+		(instances
+			(project "airlora-kicad"
+				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/af8bb3f5-67b6-4471-83fd-9297b14489a9"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 82.55 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5076f41f-7dde-4165-8084-b950c07780b8")
+		(property "Reference" "#PWR02"
+			(at 82.55 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 82.55 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 82.55 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "506f37ef-8de9-4984-aead-95d1f37d3bf6")
+		)
+		(instances
+			(project "airlora-kicad"
+				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/af8bb3f5-67b6-4471-83fd-9297b14489a9"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -3828,7 +5209,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59ad6d9b-4b9e-4be0-aeaa-fff368f9de91")
-		(property "Reference" "R7"
+		(property "Reference" "R12"
 			(at 256.54 82.5499 0)
 			(effects
 				(font
@@ -3918,24 +5299,42 @@
 		(instances
 			(project "airlora-kicad"
 				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/af8bb3f5-67b6-4471-83fd-9297b14489a9"
-					(reference "R7")
+					(reference "R12")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 57.15 87.63 0)
+		(lib_id "Device:R")
+		(at 166.37 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5ae5bdc2-a0a9-4597-a4b4-eeb1f8bab20c")
-		(property "Reference" "#PWR01"
-			(at 57.15 93.98 0)
+		(uuid "633797b1-f89b-40bb-ab27-a5e7484c701f")
+		(property "Reference" "R10"
+			(at 168.91 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 168.91 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 164.592 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3943,16 +5342,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 57.15 92.075 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.15 87.63 0)
+		(property "Datasheet" "~"
+			(at 166.37 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3960,8 +5351,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 57.15 87.63 0)
+		(property "Description" "Resistor"
+			(at 166.37 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3969,8 +5360,35 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 57.15 87.63 0)
+		(property "MANUFACTURER" ""
+			(at 166.37 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 166.37 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 166.37 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 166.37 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3979,12 +5397,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "a0146eaf-284f-45a5-9598-307a2923eef7")
+			(uuid "92748f73-2df4-4c09-a1c3-811dc7c420b7")
+		)
+		(pin "2"
+			(uuid "8cd064f6-39bb-432c-a245-fbeb01f82f6b")
 		)
 		(instances
 			(project "airlora-kicad"
 				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/af8bb3f5-67b6-4471-83fd-9297b14489a9"
-					(reference "#PWR01")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -4000,7 +5421,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "668bf624-e1c6-4269-9169-ab5346770875")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR05"
 			(at 157.48 81.28 0)
 			(effects
 				(font
@@ -4050,7 +5471,7 @@
 		(instances
 			(project "airlora-kicad"
 				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/af8bb3f5-67b6-4471-83fd-9297b14489a9"
-					(reference "#PWR03")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -4171,7 +5592,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "70c0e1bf-1a00-4289-a232-4db4800bd0a0")
-		(property "Reference" "C5"
+		(property "Reference" "C6"
 			(at 153.924 89.154 0)
 			(effects
 				(font
@@ -4261,7 +5682,77 @@
 		(instances
 			(project "airlora-kicad"
 				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/af8bb3f5-67b6-4471-83fd-9297b14489a9"
-					(reference "C5")
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 64.77 80.01 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7496323d-ff59-44db-ad69-cb3d4862dadf")
+		(property "Reference" "D1"
+			(at 67.31 78.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D_Zener"
+			(at 67.31 81.2799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
+			(at 64.77 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 64.77 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f6c4ae72-d2a2-4449-8e54-4577cfd6d810")
+		)
+		(pin "2"
+			(uuid "df6d9c8f-ed3d-4c37-8030-c1e19b91a48d")
+		)
+		(instances
+			(project "airlora-kicad"
+				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/af8bb3f5-67b6-4471-83fd-9297b14489a9"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -4411,7 +5902,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7ac435c5-bba3-4f9d-9451-ab726d0d7514")
-		(property "Reference" "R1"
+		(property "Reference" "R2"
 			(at 102.87 86.36 0)
 			(effects
 				(font
@@ -4501,110 +5992,7 @@
 		(instances
 			(project "airlora-kicad"
 				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/af8bb3f5-67b6-4471-83fd-9297b14489a9"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 52.07 87.63 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7b2f713d-3fc4-42de-a588-2e2c0438ec07")
-		(property "Reference" "D1"
-			(at 47.244 88.773 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4007"
-			(at 47.244 86.233 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 52.07 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 52.07 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 52.07 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 52.07 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 52.07 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 52.07 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 52.07 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8b0a7c84-e368-4524-a460-1f53f288fe74")
-		)
-		(pin "2"
-			(uuid "5748bfaa-ae3d-4315-9ed2-41933c4d7d5f")
-		)
-		(instances
-			(project "airlora-kicad"
-				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/af8bb3f5-67b6-4471-83fd-9297b14489a9"
-					(reference "D1")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -4619,7 +6007,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "82642d59-a38f-4e12-970d-796965aa38a4")
-		(property "Reference" "R3"
+		(property "Reference" "R4"
 			(at 135.89 91.44 0)
 			(effects
 				(font
@@ -4709,7 +6097,73 @@
 		(instances
 			(project "airlora-kicad"
 				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/af8bb3f5-67b6-4471-83fd-9297b14489a9"
-					(reference "R3")
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 130.81 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8643b7ff-1448-4920-99bd-45acc07d1871")
+		(property "Reference" "#PWR04"
+			(at 130.81 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 130.81 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 130.81 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92377016-0848-4c76-b12e-9bae56e36223")
+		)
+		(instances
+			(project "airlora-kicad"
+				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/af8bb3f5-67b6-4471-83fd-9297b14489a9"
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -4724,7 +6178,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8cae7c56-8f84-43f0-aedb-8c629193d89d")
-		(property "Reference" "C7"
+		(property "Reference" "C9"
 			(at 193.294 87.63 0)
 			(effects
 				(font
@@ -4814,7 +6268,7 @@
 		(instances
 			(project "airlora-kicad"
 				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/af8bb3f5-67b6-4471-83fd-9297b14489a9"
-					(reference "C7")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -4830,7 +6284,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d0ae60c-65aa-493d-ad20-a08f40bd903b")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR06"
 			(at 238.76 106.68 0)
 			(effects
 				(font
@@ -4880,7 +6334,7 @@
 		(instances
 			(project "airlora-kicad"
 				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/af8bb3f5-67b6-4471-83fd-9297b14489a9"
-					(reference "#PWR04")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -4896,7 +6350,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8d39fb20-3540-4112-b51c-d8d1c2057d3d")
-		(property "Reference" "C4"
+		(property "Reference" "C5"
 			(at 130.302 69.85 90)
 			(effects
 				(font
@@ -4986,7 +6440,7 @@
 		(instances
 			(project "airlora-kicad"
 				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/af8bb3f5-67b6-4471-83fd-9297b14489a9"
-					(reference "C4")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -5106,7 +6560,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d53db12-ed1a-4ffc-953b-e09e2671d75b")
-		(property "Reference" "D3"
+		(property "Reference" "D4"
 			(at 278.13 85.4074 90)
 			(effects
 				(font
@@ -5196,7 +6650,7 @@
 		(instances
 			(project "airlora-kicad"
 				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/af8bb3f5-67b6-4471-83fd-9297b14489a9"
-					(reference "D3")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -5211,7 +6665,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "90d95585-cc85-4e72-84b8-ae17cf87d249")
-		(property "Reference" "R6"
+		(property "Reference" "R11"
 			(at 243.84 81.28 90)
 			(effects
 				(font
@@ -5299,7 +6753,7 @@
 		(instances
 			(project "airlora-kicad"
 				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/af8bb3f5-67b6-4471-83fd-9297b14489a9"
-					(reference "R6")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -5315,7 +6769,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a3816e8b-2e7e-4d7c-8465-9a2ef973f31f")
-		(property "Reference" "C3"
+		(property "Reference" "C4"
 			(at 130.556 83.82 0)
 			(effects
 				(font
@@ -5405,7 +6859,7 @@
 		(instances
 			(project "airlora-kicad"
 				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/af8bb3f5-67b6-4471-83fd-9297b14489a9"
-					(reference "C3")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -5518,6 +6972,284 @@
 		)
 	)
 	(symbol
+		(lib_id "TPS7A2633DRVR:TPS7A2633DRVR")
+		(at 113.03 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b343d401-8042-4d52-b88d-471005e2e364")
+		(property "Reference" "U2"
+			(at 113.03 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS7A2633DRVR"
+			(at 113.03 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprint:TPS7A2633DRVR"
+			(at 113.03 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 113.03 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Texas Instruments"
+			(at 113.03 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" "500-mA, 18-V, ultra-low-IQ, high-accuracy, adjustable low-dropout voltage regulator with power good 6-WSON -40 to 125"
+			(at 113.03 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "WSON-6 Texas Instruments"
+			(at 113.03 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PRICE" "None"
+			(at 113.03 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "WSON-6 Texas Instruments"
+			(at 113.03 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TPS7A2633DRVR/Texas+Instruments/view-part/?ref=eda"
+			(at 113.03 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 113.03 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPS7A2633DRVR/Texas+Instruments/view-part/?ref=snap"
+			(at 113.03 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TPS7A2633DRVR"
+			(at 113.03 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=4639091&manufacturer=Texas Instruments&part_name=TPS7A2633DRVR&search_term=None"
+			(at 113.03 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n500-mA, 18-V, ultra-low-IQ, high-accuracy, adjustable low-dropout voltage regulator with power good\n"
+			(at 113.03 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 113.03 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" "Warning"
+			(at 113.03 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PURCHASE-URL" "https://pricing.snapeda.com/search/part/TPS7A2633DRVR/?ref=eda"
+			(at 113.03 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MFR" " TPS7A2633DRVR"
+			(at 113.03 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" " C2876256"
+			(at 113.03 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 113.03 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 113.03 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 113.03 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 113.03 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "d2258dc7-9774-4578-bbc9-901deccc250a")
+		)
+		(pin "2"
+			(uuid "4198626a-b010-4c4a-949f-4288eac94639")
+		)
+		(pin "3"
+			(uuid "b73901d7-3a10-4030-9ab1-ce224be6e9a3")
+		)
+		(pin "4"
+			(uuid "dada6df7-9dbe-46d0-948d-6bb0baff216b")
+		)
+		(pin "6"
+			(uuid "de8716b0-a676-4b3d-8ef8-121ed7496dd3")
+		)
+		(pin "1"
+			(uuid "d401d3b5-eb18-425b-87a3-ee66374e16ff")
+		)
+		(pin "7"
+			(uuid "319d8dfe-2732-4825-8358-a1e59ddb2c8d")
+		)
+		(instances
+			(project "airlora-kicad"
+				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/af8bb3f5-67b6-4471-83fd-9297b14489a9"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 262.89 90.17 0)
 		(unit 1)
@@ -5526,7 +7258,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cc0ce9a8-0dc9-4e24-ab1f-2496631d82e6")
-		(property "Reference" "C8"
+		(property "Reference" "C10"
 			(at 265.684 88.9 0)
 			(effects
 				(font
@@ -5616,7 +7348,7 @@
 		(instances
 			(project "airlora-kicad"
 				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/af8bb3f5-67b6-4471-83fd-9297b14489a9"
-					(reference "C8")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -5631,7 +7363,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cf24d066-aeb0-4c19-a20d-b896433c9e21")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR03"
 			(at 111.76 106.68 0)
 			(effects
 				(font
@@ -5681,7 +7413,74 @@
 		(instances
 			(project "airlora-kicad"
 				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/af8bb3f5-67b6-4471-83fd-9297b14489a9"
-					(reference "#PWR02")
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 58.42 88.9 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d4792e00-35b4-49e4-b3da-b26fcd5b8b1c")
+		(property "Reference" "R1"
+			(at 54.61 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 56.388 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 60.198 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 58.42 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "af83fb55-2961-4453-b9ae-c4a4b1c8a02b")
+		)
+		(pin "1"
+			(uuid "c83f779a-3b00-42bd-9b8b-2623306ed43b")
+		)
+		(instances
+			(project "airlora-kicad"
+				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/af8bb3f5-67b6-4471-83fd-9297b14489a9"
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -5696,7 +7495,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e1a4a901-e762-4b2a-a0f5-3200040ba3a5")
-		(property "Reference" "R4"
+		(property "Reference" "R6"
 			(at 143.51 82.55 0)
 			(effects
 				(font
@@ -5786,7 +7585,7 @@
 		(instances
 			(project "airlora-kicad"
 				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/af8bb3f5-67b6-4471-83fd-9297b14489a9"
-					(reference "R4")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -5794,7 +7593,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 52.07 74.93 90)
+		(at 41.91 74.93 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5803,25 +7602,23 @@
 		(fields_autoplaced yes)
 		(uuid "e5319854-2c22-4ef2-9b84-96610221f55a")
 		(property "Reference" "J1"
-			(at 57.15 73.6599 90)
+			(at 41.91 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "12V"
-			(at 57.15 76.1999 90)
+			(at 41.91 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_2-G-3.5_1x02_P3.50mm_Vertical"
-			(at 52.07 74.93 0)
+			(at 41.91 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5830,7 +7627,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 52.07 74.93 0)
+			(at 41.91 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5839,7 +7636,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 52.07 74.93 0)
+			(at 41.91 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5848,7 +7645,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 52.07 74.93 0)
+			(at 41.91 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5857,7 +7654,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 52.07 74.93 0)
+			(at 41.91 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5866,7 +7663,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 52.07 74.93 0)
+			(at 41.91 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5875,7 +7672,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 52.07 74.93 0)
+			(at 41.91 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5899,6 +7696,112 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 146.05 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e795ebd0-8ca2-48e5-b3de-e33187fb09fe")
+		(property "Reference" "R7"
+			(at 148.59 128.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.96M"
+			(at 148.59 130.8099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 144.272 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 146.05 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 146.05 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 146.05 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 146.05 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 146.05 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7e325197-86e4-45e2-aa09-780c27830e84")
+		)
+		(pin "1"
+			(uuid "90cb12dd-10a0-489d-bc40-7dc6a6adc156")
+		)
+		(instances
+			(project "airlora-kicad"
+				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/af8bb3f5-67b6-4471-83fd-9297b14489a9"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 90.17 83.82 0)
 		(unit 1)
@@ -5907,7 +7810,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e860020d-f545-4a86-afd9-a5e8900b3e9e")
-		(property "Reference" "C2"
+		(property "Reference" "C3"
 			(at 93.218 82.55 0)
 			(effects
 				(font
@@ -5997,7 +7900,110 @@
 		(instances
 			(project "airlora-kicad"
 				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/af8bb3f5-67b6-4471-83fd-9297b14489a9"
-					(reference "C2")
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 135.89 130.81 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f0864906-fd4b-4907-9b92-75d5e50a3202")
+		(property "Reference" "R5"
+			(at 135.89 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 135.89 128.778 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 135.89 132.588 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 135.89 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 135.89 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 135.89 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 135.89 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 135.89 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4760f3c9-f07f-4bab-9403-e623c7d56550")
+		)
+		(pin "1"
+			(uuid "57239dfb-7135-4e29-94aa-29f73edcfc2a")
+		)
+		(instances
+			(project "airlora-kicad"
+				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/af8bb3f5-67b6-4471-83fd-9297b14489a9"
+					(reference "R5")
 					(unit 1)
 				)
 			)

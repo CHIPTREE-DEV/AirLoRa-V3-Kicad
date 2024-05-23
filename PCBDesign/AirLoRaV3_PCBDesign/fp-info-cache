@@ -1,4 +1,4 @@
-23051429303704017
+23053139429300623
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -94405,6 +94405,13 @@ footprint
 NT2016SA-32M-END4263A_NDK
 
 NT2016SA-32M-END4263A 
+0
+4
+4
+footprint
+NX2016SA_NDK
+
+NX2016SA-32MHZ-EXS00A-CS06654 
 0
 4
 4
