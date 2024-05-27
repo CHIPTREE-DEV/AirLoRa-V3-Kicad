@@ -4498,10 +4498,6 @@
 		(uuid "1c2a939c-fa38-40fa-887e-ec6bcad54e65")
 	)
 	(no_connect
-		(at 278.13 167.64)
-		(uuid "2268612a-bc1b-4364-b9cc-97d04c609aa1")
-	)
-	(no_connect
 		(at 278.13 198.12)
 		(uuid "2ee1e2f7-8107-4199-a7fe-f2fd1f2cc711")
 	)
@@ -4526,10 +4522,6 @@
 		(uuid "770fa1cd-f630-432c-8a61-a16a3a7df946")
 	)
 	(no_connect
-		(at 278.13 163.83)
-		(uuid "7a1e8a3a-6742-40c0-b383-75794baad88b")
-	)
-	(no_connect
 		(at 278.13 180.34)
 		(uuid "8470ce3c-5591-42ca-8995-e7530078d248")
 	)
@@ -4548,10 +4540,6 @@
 	(no_connect
 		(at 278.13 162.56)
 		(uuid "a2eb36f0-3eeb-416d-a9b7-2b4722a831b7")
-	)
-	(no_connect
-		(at 278.13 165.1)
-		(uuid "a4e1809c-a66e-45c3-88f3-14065d996eb4")
 	)
 	(no_connect
 		(at 278.13 144.78)
@@ -6284,9 +6272,9 @@
 		)
 		(uuid "1ad8939b-1480-4c22-83b4-35c6055d4426")
 	)
-	(hierarchical_label "SDA1"
+	(hierarchical_label "SDA2"
 		(shape input)
-		(at 278.13 195.58 0)
+		(at 278.13 167.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6308,9 +6296,9 @@
 		)
 		(uuid "4bf1267e-3fc7-41f0-8a97-7f71ab62c9f0")
 	)
-	(hierarchical_label "SCL1"
+	(hierarchical_label "SCL2"
 		(shape input)
-		(at 278.13 193.04 0)
+		(at 278.13 165.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13463,7 +13451,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_CLIK-Mate_502585-0370_1x03-1MP_P1.50mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
 			(at 342.9 149.86 0)
 			(effects
 				(font
