@@ -228,6 +228,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 105.41) (xy 190.5 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "735c7068-f1c3-47af-82ff-25b089016482")
+	)
+	(wire
+		(pts
 			(xy 190.5 134.62) (xy 185.42 134.62)
 		)
 		(stroke
@@ -304,7 +314,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "8d7a42a4-36bb-4da8-98fa-1531c398dfee")
+		(uuid "8bfa3aa0-c03b-44e1-bf4e-01f6a8091092")
 	)
 	(wire
 		(pts
@@ -348,16 +358,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 114.3) (xy 190.5 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ed2ce9f-1cc6-46ec-a212-bc17aa6091b3")
-	)
-	(wire
-		(pts
 			(xy 165.1 63.5) (xy 179.07 63.5)
 		)
 		(stroke
@@ -374,7 +374,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "a6d533b4-6492-4c28-842b-28d0434a4f93")
+		(uuid "a5f15549-608d-4ffe-b468-412fd0f8db89")
 	)
 	(wire
 		(pts
@@ -415,6 +415,16 @@
 			(type default)
 		)
 		(uuid "c8a0530b-e37a-46fc-9783-c0f37e3a2f1a")
+	)
+	(wire
+		(pts
+			(xy 167.64 114.3) (xy 190.5 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca9822ef-ea85-46e6-a761-f8285bf81d7c")
 	)
 	(wire
 		(pts
@@ -475,16 +485,6 @@
 			(type default)
 		)
 		(uuid "e6cbb310-ef2e-492e-b888-4e69aa8f2cdd")
-	)
-	(wire
-		(pts
-			(xy 167.64 105.41) (xy 190.5 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee782827-c0bb-4f1d-88e8-0b6b6aab64b2")
 	)
 	(wire
 		(pts
@@ -953,7 +953,7 @@
 			)
 			(uuid "fca2b23c-8b55-4d7e-804b-e03c98564bfc")
 		)
-		(pin "PB3" input
+		(pin "PA3" input
 			(at 132.08 67.31 180)
 			(effects
 				(font
@@ -1083,7 +1083,7 @@
 			(uuid "2e043ea5-92cd-4f09-bef3-5635c91f4226")
 		)
 		(pin "PA6" input
-			(at 167.64 105.41 0)
+			(at 167.64 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1133,7 +1133,7 @@
 			(uuid "e3489881-5152-4879-a933-4b4f6e23d3e3")
 		)
 		(pin "PA4" input
-			(at 167.64 114.3 0)
+			(at 167.64 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1183,7 +1183,7 @@
 			(uuid "1c2f31ec-f56b-4ca4-b1bb-f5093a7a5e8a")
 		)
 		(pin "PB3" input
-			(at 167.64 142.24 0)
+			(at 167.64 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1193,7 +1193,7 @@
 			(uuid "68af50d0-3d4c-40fc-8cb0-fe3942631397")
 		)
 		(pin "PB4" input
-			(at 167.64 149.86 0)
+			(at 167.64 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
