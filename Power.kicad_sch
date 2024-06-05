@@ -463,151 +463,6 @@
 				)
 			)
 		)
-		(symbol "Device:D_Zener"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_Zener"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Zener diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_Zener_0_1"
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_Zener_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:L"
 			(pin_numbers hide)
 			(pin_names
@@ -1238,317 +1093,6 @@
 						)
 					)
 					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Simulation_SPICE:PMOS"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q1"
-				(at 8.89 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "ZVP2106GTA"
-				(at 6.35 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-				(at 5.08 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "P-MOSFET transistor, drain/source/gate"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "PMOS"
-				(at 0 -17.145 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Type" "VDMOS"
-				(at 0 -19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=D 2=G 3=S"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET simulation"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PMOS_0_1"
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "PMOS_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2370,12 +1914,6 @@
 		(uuid "093af7b4-df30-4b66-8eda-03cc2dc86c52")
 	)
 	(junction
-		(at 58.42 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0ab95091-620f-4d7c-ad6b-a4a7e936fcc4")
-	)
-	(junction
 		(at 254 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2472,12 +2010,6 @@
 		(uuid "8edf32f0-3c63-4c69-8aea-a9725ecefce1")
 	)
 	(junction
-		(at 64.77 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aeb48ed3-8f9a-498e-bdc5-2aba87959859")
-	)
-	(junction
 		(at 120.65 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2554,12 +2086,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f33fc778-213c-4f01-aa37-f613004c3eec")
-	)
-	(junction
-		(at 54.61 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f73c9831-ab9b-41df-8a66-feaead1df7d6")
 	)
 	(junction
 		(at 157.48 77.47)
@@ -2699,16 +2225,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 92.71) (xy 58.42 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a695d80-c05b-43ec-9e58-7d88d0b5debf")
-	)
-	(wire
-		(pts
 			(xy 78.74 97.79) (xy 90.17 97.79)
 		)
 		(stroke
@@ -2819,26 +2335,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 93.98) (xy 58.42 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3278a99c-f640-4d12-8f53-dc2bc3a729de")
-	)
-	(wire
-		(pts
-			(xy 58.42 83.82) (xy 64.77 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3613ee1e-8aba-47d2-a914-566d9d861cea")
-	)
-	(wire
-		(pts
 			(xy 262.89 86.36) (xy 262.89 80.01)
 		)
 		(stroke
@@ -2889,16 +2385,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 83.82) (xy 58.42 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "418af710-152d-452c-b293-0b4e6f3c5090")
-	)
-	(wire
-		(pts
 			(xy 238.76 85.09) (xy 240.03 85.09)
 		)
 		(stroke
@@ -2916,26 +2402,6 @@
 			(type default)
 		)
 		(uuid "47f86109-9f37-4c6b-8584-983869131218")
-	)
-	(wire
-		(pts
-			(xy 63.5 74.93) (xy 64.77 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ac4f841-83ba-4ec7-84eb-6f004d91250c")
-	)
-	(wire
-		(pts
-			(xy 49.53 93.98) (xy 54.61 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b90013f-f0fd-4ac0-91cc-3f85ce9704c6")
 	)
 	(wire
 		(pts
@@ -3079,6 +2545,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 77.47) (xy 62.23 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7180f55f-c92c-47ce-9c02-1b04e4786641")
+	)
+	(wire
+		(pts
 			(xy 166.37 77.47) (xy 166.37 78.74)
 		)
 		(stroke
@@ -3106,6 +2582,16 @@
 			(type default)
 		)
 		(uuid "7eb8ff44-a90b-4521-968e-881e429994cd")
+	)
+	(wire
+		(pts
+			(xy 59.69 74.93) (xy 78.74 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "818a5f7a-5628-4805-81dd-9adab0927efe")
 	)
 	(wire
 		(pts
@@ -3196,26 +2682,6 @@
 			(type default)
 		)
 		(uuid "9cf3df49-87de-41e6-827d-5463084b05ba")
-	)
-	(wire
-		(pts
-			(xy 58.42 85.09) (xy 58.42 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d828002-9db8-41ed-992b-c629f434a95a")
-	)
-	(wire
-		(pts
-			(xy 64.77 74.93) (xy 78.74 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9dc27aba-0a9d-4d08-b851-4d24f61fd62e")
 	)
 	(wire
 		(pts
@@ -3359,7 +2825,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 72.39) (xy 49.53 93.98)
+			(xy 62.23 77.47) (xy 62.23 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3449,16 +2915,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 74.93) (xy 53.34 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e954eb68-6152-439e-9265-2a5fad413345")
-	)
-	(wire
-		(pts
 			(xy 134.62 142.24) (xy 146.05 142.24)
 		)
 		(stroke
@@ -3476,16 +2932,6 @@
 			(type default)
 		)
 		(uuid "eb14814d-2876-4ff8-95ee-8693de57faa0")
-	)
-	(wire
-		(pts
-			(xy 64.77 74.93) (xy 64.77 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb5cc722-a70b-4226-bfb2-b55e66a9720a")
 	)
 	(wire
 		(pts
@@ -3526,16 +2972,6 @@
 			(type default)
 		)
 		(uuid "f2dcb2b9-4e5c-47bb-8fbc-2458f7d8b59a")
-	)
-	(wire
-		(pts
-			(xy 46.99 72.39) (xy 49.53 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f44876c6-0ff9-49b2-9610-627fc3bac83c")
 	)
 	(wire
 		(pts
@@ -3689,28 +3125,6 @@
 			(justify left bottom)
 		)
 		(uuid "ee920a1c-94a2-417a-ad79-4289eb3871ed")
-	)
-	(global_label "SW"
-		(shape input)
-		(at 133.35 74.93 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "694db60b-f5ef-4676-9ef7-05ea8ab57b82")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.35 69.2839 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
 	(hierarchical_label "En"
 		(shape input)
@@ -4110,7 +3524,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 54.61 93.98 0)
+		(at 62.23 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4119,7 +3533,7 @@
 		(fields_autoplaced yes)
 		(uuid "2952f898-4f7f-4445-85b1-59c4be8ce90e")
 		(property "Reference" "#PWR01"
-			(at 54.61 100.33 0)
+			(at 62.23 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4128,7 +3542,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 54.61 98.425 0)
+			(at 62.23 84.455 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4136,7 +3550,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 93.98 0)
+			(at 62.23 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4145,7 +3559,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 93.98 0)
+			(at 62.23 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4154,7 +3568,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 54.61 93.98 0)
+			(at 62.23 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4981,104 +4395,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
-		(at 58.42 77.47 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4a50355e-badb-40ba-8d18-7393aaf1a5da")
-		(property "Reference" "Q1"
-			(at 58.42 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ZVP2106GTA"
-			(at 58.42 71.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 55.88 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 71.12 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 58.42 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "PMOS"
-			(at 75.565 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 77.47 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 73.66 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "3111136f-3764-4f4f-b29b-0292ffeebc28")
-		)
-		(pin "1"
-			(uuid "9d6ea7b1-e338-4472-babd-303fb789c14d")
-		)
-		(pin "2"
-			(uuid "59d5837d-4500-4420-adc4-005e5376d6cc")
-		)
-		(instances
-			(project "airlora-kicad"
-				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/af8bb3f5-67b6-4471-83fd-9297b14489a9"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 134.62 132.08 0)
 		(unit 1)
@@ -5865,76 +5181,6 @@
 			(project "airlora-kicad"
 				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/af8bb3f5-67b6-4471-83fd-9297b14489a9"
 					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Zener")
-		(at 64.77 80.01 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7496323d-ff59-44db-ad69-cb3d4862dadf")
-		(property "Reference" "D1"
-			(at 67.31 78.7399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D_Zener"
-			(at 67.31 81.2799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
-			(at 64.77 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 64.77 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Zener diode"
-			(at 64.77 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f6c4ae72-d2a2-4449-8e54-4577cfd6d810")
-		)
-		(pin "2"
-			(uuid "df6d9c8f-ed3d-4c37-8030-c1e19b91a48d")
-		)
-		(instances
-			(project "airlora-kicad"
-				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/af8bb3f5-67b6-4471-83fd-9297b14489a9"
-					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -7669,73 +6915,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 58.42 88.9 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d4792e00-35b4-49e4-b3da-b26fcd5b8b1c")
-		(property "Reference" "R1"
-			(at 54.61 88.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 56.388 88.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 60.198 88.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 58.42 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 58.42 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "af83fb55-2961-4453-b9ae-c4a4b1c8a02b")
-		)
-		(pin "1"
-			(uuid "c83f779a-3b00-42bd-9b8b-2623306ed43b")
-		)
-		(instances
-			(project "airlora-kicad"
-				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/af8bb3f5-67b6-4471-83fd-9297b14489a9"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 142.24 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7841,16 +7020,16 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 41.91 74.93 180)
+		(at 54.61 74.93 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e5319854-2c22-4ef2-9b84-96610221f55a")
 		(property "Reference" "J1"
-			(at 41.91 66.04 0)
+			(at 54.61 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7858,7 +7037,7 @@
 			)
 		)
 		(property "Value" "12V"
-			(at 41.91 68.58 0)
+			(at 54.61 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7866,7 +7045,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_2-G-3.5_1x02_P3.50mm_Vertical"
-			(at 41.91 74.93 0)
+			(at 54.61 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7875,7 +7054,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 41.91 74.93 0)
+			(at 54.61 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7884,7 +7063,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 41.91 74.93 0)
+			(at 54.61 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7893,7 +7072,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 41.91 74.93 0)
+			(at 54.61 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7902,7 +7081,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 41.91 74.93 0)
+			(at 54.61 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7911,7 +7090,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 41.91 74.93 0)
+			(at 54.61 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7920,7 +7099,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 41.91 74.93 0)
+			(at 54.61 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
