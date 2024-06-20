@@ -4090,6 +4090,12 @@
 		(uuid "12a624dc-92bb-4e0e-8bde-a694ba07ef2b")
 	)
 	(junction
+		(at 292.1 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f089639-9d2a-4f7c-b060-05792157b455")
+	)
+	(junction
 		(at 259.08 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4126,6 +4132,12 @@
 		(uuid "4cabfcc8-5906-4967-aaa9-ce96bba6b478")
 	)
 	(junction
+		(at 314.96 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60e2ab4f-4186-4640-bfa4-6cd16fbfb7b8")
+	)
+	(junction
 		(at 160.02 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4142,12 +4154,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6d339bd6-c656-4de1-b155-7202420566e4")
-	)
-	(junction
-		(at 292.1 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "714f35e5-0abc-43dc-8b46-6d420d879db2")
 	)
 	(junction
 		(at 157.48 132.08)
@@ -4244,12 +4250,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b49c0520-c89a-4045-96a0-9d5681b8ef36")
-	)
-	(junction
-		(at 313.69 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b6e06cf4-ed66-43a7-81ed-0e635e8cbbc2")
 	)
 	(junction
 		(at 167.64 139.7)
@@ -4573,7 +4573,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 132.08) (xy 313.69 132.08)
+			(xy 256.54 132.08) (xy 292.1 132.08)
 		)
 		(stroke
 			(width 0)
@@ -4723,16 +4723,6 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 128.27) (xy 313.69 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b97eacf-95d1-4606-8f19-fa086c6abf3c")
-	)
-	(wire
-		(pts
 			(xy 92.71 201.93) (xy 92.71 204.47)
 		)
 		(stroke
@@ -4770,16 +4760,6 @@
 			(type default)
 		)
 		(uuid "3a728c1f-028e-4d67-b719-95b8ccba64d1")
-	)
-	(wire
-		(pts
-			(xy 292.1 119.38) (xy 278.13 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a91f243-50b6-44f3-b739-fe2ccf3690fe")
 	)
 	(wire
 		(pts
@@ -5313,6 +5293,16 @@
 	)
 	(wire
 		(pts
+			(xy 278.13 119.38) (xy 314.96 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96bf33bd-e281-4033-9116-249f8181c398")
+	)
+	(wire
+		(pts
 			(xy 194.31 73.66) (xy 220.98 73.66)
 		)
 		(stroke
@@ -5330,6 +5320,16 @@
 			(type default)
 		)
 		(uuid "97b58287-8982-4565-9ee0-1d311bb05e0a")
+	)
+	(wire
+		(pts
+			(xy 314.96 119.38) (xy 314.96 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99a911a7-9de1-43a1-b155-5c2f3db183c2")
 	)
 	(wire
 		(pts
@@ -5490,6 +5490,16 @@
 			(type default)
 		)
 		(uuid "abe2b10c-21b8-4bf9-bac3-ca513ecd3034")
+	)
+	(wire
+		(pts
+			(xy 292.1 125.73) (xy 292.1 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acf447b4-4074-4c7d-8e0a-e176288e7eb9")
 	)
 	(wire
 		(pts
@@ -5760,16 +5770,6 @@
 			(type default)
 		)
 		(uuid "cf75f27a-5ad0-4e89-bb44-dfa258aeeb4a")
-	)
-	(wire
-		(pts
-			(xy 292.1 125.73) (xy 292.1 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d35f2c20-1034-4c20-a0d4-446d5a3150e0")
 	)
 	(wire
 		(pts
@@ -12332,7 +12332,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_Vertical_Wuerth_434133025816"
+		(property "Footprint" "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx39-2LFS"
 			(at 203.2 175.26 0)
 			(effects
 				(font

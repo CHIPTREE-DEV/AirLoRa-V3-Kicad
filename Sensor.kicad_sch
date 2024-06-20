@@ -1700,7 +1700,7 @@
 	)
 	(hierarchical_label "RX_PM"
 		(shape input)
-		(at 137.16 53.34 0)
+		(at 137.16 55.88 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1808,7 +1808,7 @@
 	)
 	(hierarchical_label "TX_PM"
 		(shape input)
-		(at 137.16 55.88 0)
+		(at 137.16 53.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
