@@ -2315,16 +2315,8 @@
 		(uuid "5eb7e96a-d51d-47bf-bb4e-aefb48ac41c4")
 	)
 	(no_connect
-		(at 203.2 90.17)
-		(uuid "6462e2c4-7f5b-4011-85ac-11a930f4b2a9")
-	)
-	(no_connect
 		(at 170.18 100.33)
 		(uuid "691b1838-4a11-453f-951e-44706adf668d")
-	)
-	(no_connect
-		(at 203.2 92.71)
-		(uuid "79ef4e56-b53b-41ca-a2b3-21dbc0d880c2")
 	)
 	(no_connect
 		(at 170.18 128.27)
@@ -3073,7 +3065,7 @@
 	)
 	(hierarchical_label "SCL1"
 		(shape input)
-		(at 170.18 115.57 180)
+		(at 170.18 110.49 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3085,13 +3077,13 @@
 	)
 	(hierarchical_label "RX3"
 		(shape input)
-		(at 170.18 123.19 180)
+		(at 203.2 92.71 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "098674b4-5df2-48d2-ac1d-21acd2d55a4c")
 	)
@@ -3121,13 +3113,13 @@
 	)
 	(hierarchical_label "TX3"
 		(shape input)
-		(at 170.18 120.65 180)
+		(at 203.2 90.17 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "11b0e6b9-86dc-4208-8a47-c59deab0ddb6")
 	)
@@ -3169,7 +3161,7 @@
 	)
 	(hierarchical_label "SDA2"
 		(shape input)
-		(at 170.18 113.03 180)
+		(at 170.18 123.19 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3217,7 +3209,7 @@
 	)
 	(hierarchical_label "SDA1"
 		(shape input)
-		(at 170.18 118.11 180)
+		(at 170.18 113.03 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3265,7 +3257,7 @@
 	)
 	(hierarchical_label "SCL2"
 		(shape input)
-		(at 170.18 110.49 180)
+		(at 170.18 120.65 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3333,7 +3325,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1389df17-87d8-4303-9564-9cd348167619")
-		(property "Reference" "C45"
+		(property "Reference" "C49"
 			(at 142.24 83.8262 0)
 			(effects
 				(font
@@ -3414,7 +3406,7 @@
 		(instances
 			(project "airlora-kicad"
 				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/eab4a250-4bd5-4f82-b1cd-88a390e22a6b"
-					(reference "C45")
+					(reference "C49")
 					(unit 1)
 				)
 			)
@@ -3429,7 +3421,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "148f5c10-c095-4443-9027-50f6cba65022")
-		(property "Reference" "R30"
+		(property "Reference" "R29"
 			(at 165.1 70.612 90)
 			(effects
 				(font
@@ -3508,7 +3500,7 @@
 		(instances
 			(project "airlora-kicad"
 				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/eab4a250-4bd5-4f82-b1cd-88a390e22a6b"
-					(reference "R30")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -3524,7 +3516,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1949ec06-d94b-4c9a-a1c1-661eb680cb3c")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR072"
 			(at 151.13 72.39 0)
 			(effects
 				(font
@@ -3575,7 +3567,7 @@
 		(instances
 			(project "airlora-kicad"
 				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/eab4a250-4bd5-4f82-b1cd-88a390e22a6b"
-					(reference "#PWR068")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -3591,7 +3583,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ba97627-891d-4c33-a0d1-6065caa06c5b")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR064"
 			(at 29.21 50.8 0)
 			(effects
 				(font
@@ -3641,7 +3633,7 @@
 		(instances
 			(project "airlora-kicad"
 				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/eab4a250-4bd5-4f82-b1cd-88a390e22a6b"
-					(reference "#PWR060")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -3657,7 +3649,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "206fd89b-cf4b-41c3-beb8-efd36a19df89")
-		(property "Reference" "C38"
+		(property "Reference" "C42"
 			(at 31.75 33.0262 0)
 			(effects
 				(font
@@ -3738,7 +3730,7 @@
 		(instances
 			(project "airlora-kicad"
 				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/eab4a250-4bd5-4f82-b1cd-88a390e22a6b"
-					(reference "C38")
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -3754,7 +3746,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24f71322-449f-487d-9fa5-4de9588828a2")
-		(property "Reference" "C41"
+		(property "Reference" "C45"
 			(at 73.66 33.0262 0)
 			(effects
 				(font
@@ -3835,7 +3827,7 @@
 		(instances
 			(project "airlora-kicad"
 				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/eab4a250-4bd5-4f82-b1cd-88a390e22a6b"
-					(reference "C41")
+					(reference "C45")
 					(unit 1)
 				)
 			)
@@ -3851,7 +3843,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b73f099-a225-4d5e-a339-436421d781a4")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR073"
 			(at 186.69 149.86 0)
 			(effects
 				(font
@@ -3901,7 +3893,7 @@
 		(instances
 			(project "airlora-kicad"
 				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/eab4a250-4bd5-4f82-b1cd-88a390e22a6b"
-					(reference "#PWR069")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -4017,7 +4009,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a154997-53e5-4f3f-a3fb-ff802f2fbd06")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR070"
 			(at 154.94 44.45 0)
 			(effects
 				(font
@@ -4067,7 +4059,7 @@
 		(instances
 			(project "airlora-kicad"
 				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/eab4a250-4bd5-4f82-b1cd-88a390e22a6b"
-					(reference "#PWR066")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -4083,7 +4075,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b2b3f96-f1b8-4ad7-81c1-7590634fd1c4")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR068"
 			(at 139.7 96.52 0)
 			(effects
 				(font
@@ -4133,7 +4125,7 @@
 		(instances
 			(project "airlora-kicad"
 				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/eab4a250-4bd5-4f82-b1cd-88a390e22a6b"
-					(reference "#PWR064")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -4149,7 +4141,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5cf5c9ee-1a08-4fa1-820c-4897f927a2cc")
-		(property "Reference" "C43"
+		(property "Reference" "C47"
 			(at 102.87 33.0262 0)
 			(effects
 				(font
@@ -4230,7 +4222,7 @@
 		(instances
 			(project "airlora-kicad"
 				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/eab4a250-4bd5-4f82-b1cd-88a390e22a6b"
-					(reference "C43")
+					(reference "C47")
 					(unit 1)
 				)
 			)
@@ -4482,7 +4474,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "725e7e7e-8b41-41e4-a2db-b7d383a47ac6")
-		(property "Reference" "C39"
+		(property "Reference" "C43"
 			(at 45.72 33.0262 0)
 			(effects
 				(font
@@ -4563,7 +4555,7 @@
 		(instances
 			(project "airlora-kicad"
 				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/eab4a250-4bd5-4f82-b1cd-88a390e22a6b"
-					(reference "C39")
+					(reference "C43")
 					(unit 1)
 				)
 			)
@@ -4578,7 +4570,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "78f118c9-d110-42bd-8fff-e5ced9364f59")
-		(property "Reference" "C46"
+		(property "Reference" "C50"
 			(at 157.226 53.848 0)
 			(effects
 				(font
@@ -4659,7 +4651,7 @@
 		(instances
 			(project "airlora-kicad"
 				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/eab4a250-4bd5-4f82-b1cd-88a390e22a6b"
-					(reference "C46")
+					(reference "C50")
 					(unit 1)
 				)
 			)
@@ -4675,7 +4667,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7addca83-9816-47b2-ae9f-82bb3e41b307")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR065"
 			(at 119.38 96.52 0)
 			(effects
 				(font
@@ -4725,7 +4717,7 @@
 		(instances
 			(project "airlora-kicad"
 				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/eab4a250-4bd5-4f82-b1cd-88a390e22a6b"
-					(reference "#PWR061")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -4741,7 +4733,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f8ffafd-95fa-40bf-9591-dd48060845ed")
-		(property "Reference" "C40"
+		(property "Reference" "C44"
 			(at 59.69 33.0262 0)
 			(effects
 				(font
@@ -4822,7 +4814,7 @@
 		(instances
 			(project "airlora-kicad"
 				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/eab4a250-4bd5-4f82-b1cd-88a390e22a6b"
-					(reference "C40")
+					(reference "C44")
 					(unit 1)
 				)
 			)
@@ -4837,7 +4829,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8003d539-1a43-490a-90e5-04cc16f28f76")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR067"
 			(at 132.08 49.53 0)
 			(effects
 				(font
@@ -4888,7 +4880,7 @@
 		(instances
 			(project "airlora-kicad"
 				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/eab4a250-4bd5-4f82-b1cd-88a390e22a6b"
-					(reference "#PWR063")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -4904,7 +4896,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8877f5c9-4a32-443b-94e3-8f0076b331ba")
-		(property "Reference" "D5"
+		(property "Reference" "D4"
 			(at 157.48 90.4874 90)
 			(effects
 				(font
@@ -5021,7 +5013,7 @@
 		(instances
 			(project "airlora-kicad"
 				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/eab4a250-4bd5-4f82-b1cd-88a390e22a6b"
-					(reference "D5")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -5036,7 +5028,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8ff910d4-09f2-4b9d-8914-40387b6f85e4")
-		(property "Reference" "C44"
+		(property "Reference" "C48"
 			(at 121.666 83.82 0)
 			(effects
 				(font
@@ -5117,7 +5109,7 @@
 		(instances
 			(project "airlora-kicad"
 				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/eab4a250-4bd5-4f82-b1cd-88a390e22a6b"
-					(reference "C44")
+					(reference "C48")
 					(unit 1)
 				)
 			)
@@ -5133,7 +5125,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92bec7de-50c4-4428-aecc-1784ddf939ce")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR066"
 			(at 129.54 96.52 0)
 			(effects
 				(font
@@ -5183,7 +5175,7 @@
 		(instances
 			(project "airlora-kicad"
 				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/eab4a250-4bd5-4f82-b1cd-88a390e22a6b"
-					(reference "#PWR062")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -5293,7 +5285,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c003181e-5a89-4026-83a7-489528ad9f6d")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR074"
 			(at 187.96 62.23 0)
 			(effects
 				(font
@@ -5343,7 +5335,7 @@
 		(instances
 			(project "airlora-kicad"
 				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/eab4a250-4bd5-4f82-b1cd-88a390e22a6b"
-					(reference "#PWR070")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -5359,7 +5351,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4ec73e6-10a4-4753-a20c-03d94f4dc9ac")
-		(property "Reference" "C42"
+		(property "Reference" "C46"
 			(at 87.63 33.0262 0)
 			(effects
 				(font
@@ -5440,7 +5432,7 @@
 		(instances
 			(project "airlora-kicad"
 				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/eab4a250-4bd5-4f82-b1cd-88a390e22a6b"
-					(reference "C42")
+					(reference "C46")
 					(unit 1)
 				)
 			)
@@ -5455,7 +5447,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cd4a85c0-c03b-4503-9bc2-4793ba91237b")
-		(property "Reference" "R29"
+		(property "Reference" "R28"
 			(at 156.591 43.053 0)
 			(effects
 				(font
@@ -5536,7 +5528,7 @@
 		(instances
 			(project "airlora-kicad"
 				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/eab4a250-4bd5-4f82-b1cd-88a390e22a6b"
-					(reference "R29")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -5552,7 +5544,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dacb918d-ef76-427f-820a-408772b3ea9d")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR063"
 			(at 29.21 30.48 0)
 			(effects
 				(font
@@ -5602,7 +5594,7 @@
 		(instances
 			(project "airlora-kicad"
 				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/eab4a250-4bd5-4f82-b1cd-88a390e22a6b"
-					(reference "#PWR059")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -5618,7 +5610,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9bedae1-1c2a-41da-888d-b7cb68df4637")
-		(property "Reference" "R28"
+		(property "Reference" "R27"
 			(at 156.21 99.0599 0)
 			(effects
 				(font
@@ -5735,7 +5727,7 @@
 		(instances
 			(project "airlora-kicad"
 				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/eab4a250-4bd5-4f82-b1cd-88a390e22a6b"
-					(reference "R28")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -5751,7 +5743,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f08a0390-a857-4827-8e07-f7cbb96ec11c")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR069"
 			(at 153.67 110.49 0)
 			(effects
 				(font
@@ -5801,7 +5793,7 @@
 		(instances
 			(project "airlora-kicad"
 				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/eab4a250-4bd5-4f82-b1cd-88a390e22a6b"
-					(reference "#PWR065")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -5817,7 +5809,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "feb52827-8b2c-4cb7-8c44-c7aee92325e6")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR071"
 			(at 154.94 64.77 0)
 			(effects
 				(font
@@ -5867,7 +5859,7 @@
 		(instances
 			(project "airlora-kicad"
 				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/eab4a250-4bd5-4f82-b1cd-88a390e22a6b"
-					(reference "#PWR067")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
