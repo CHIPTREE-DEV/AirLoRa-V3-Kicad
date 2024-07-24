@@ -5,21 +5,21 @@
 	(uuid "af007384-fad9-43c9-9a7b-26ea9e6dc4e2")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Screw_Terminal_01x04"
+		(symbol "Connector:Screw_Terminal_01x05"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 5.08 0)
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Screw_Terminal_01x04"
+			(property "Value" "Screw_Terminal_01x05"
 				(at 0 -7.62 0)
 				(effects
 					(font
@@ -45,7 +45,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic screw terminal, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -72,9 +72,9 @@
 					(hide yes)
 				)
 			)
-			(symbol "Screw_Terminal_01x04_1_1"
+			(symbol "Screw_Terminal_01x05_1_1"
 				(rectangle
-					(start -1.27 3.81)
+					(start -1.27 6.35)
 					(end 1.27 -6.35)
 					(stroke
 						(width 0.254)
@@ -156,6 +156,18 @@
 				)
 				(polyline
 					(pts
+						(xy -0.5334 5.4102) (xy 0.3302 4.572)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy -0.3556 -4.572) (xy 0.508 -5.4102)
 					)
 					(stroke
@@ -202,6 +214,18 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy -0.3556 5.588) (xy 0.508 4.7498)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(circle
 					(center 0 0)
 					(radius 0.635)
@@ -224,8 +248,19 @@
 						(type none)
 					)
 				)
+				(circle
+					(center 0 5.08)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 5.08 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -243,7 +278,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -261,7 +296,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -279,7 +314,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 0)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -296,235 +331,10 @@
 						)
 					)
 				)
-			)
-		)
-		(symbol "Switch:SW_Slide_DPDT"
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_Slide_DPDT"
-				(at 0 -8.128 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 13.97 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Slide Switch, dual pole double throw"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch dual-pole double-throw dpdt ON-ON"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_Slide_DPDT_0_0"
-				(circle
-					(center -2.032 -5.08)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2.032 5.08)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 -5.08)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_Slide_DPDT_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 5.08)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_Slide_DPDT_1_1"
-				(rectangle
-					(start -1.397 5.588)
-					(end -0.762 -0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.762 5.588)
-					(end 1.397 -0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at -5.08 5.08 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin passive line
 					(at -5.08 -5.08 0)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -5.08 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
+					(length 3.81)
+					(name "Pin_5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -532,24 +342,6 @@
 						)
 					)
 					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 5.08 180)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -776,86 +568,6 @@
 			)
 		)
 	)
-	(wire
-		(pts
-			(xy 147.32 77.47) (xy 147.32 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0fde4359-55fa-48f2-8208-da1d5f3e23d6")
-	)
-	(wire
-		(pts
-			(xy 147.32 85.09) (xy 139.7 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "239af7d5-3f9a-4c56-afa3-a2a35238f5e1")
-	)
-	(wire
-		(pts
-			(xy 147.32 88.9) (xy 163.83 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37110745-299f-438a-b98c-033767fea68e")
-	)
-	(wire
-		(pts
-			(xy 147.32 87.63) (xy 139.7 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "406b5921-4999-4cfb-a38c-7067ebbc878f")
-	)
-	(wire
-		(pts
-			(xy 186.69 88.9) (xy 186.69 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55853aff-ccfd-40f7-883a-f09b3755579a")
-	)
-	(wire
-		(pts
-			(xy 186.69 77.47) (xy 147.32 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63cd03d6-5d84-4a6f-927e-94921f58caf7")
-	)
-	(wire
-		(pts
-			(xy 147.32 88.9) (xy 147.32 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae3b9322-046f-4cc9-9e24-f69a643b3480")
-	)
-	(wire
-		(pts
-			(xy 173.99 88.9) (xy 186.69 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f58f8ace-af5a-4a1e-a0a6-c12ccb2b8ed0")
-	)
 	(rectangle
 		(start 126.365 66.04)
 		(end 191.135 100.33)
@@ -880,9 +592,9 @@
 		)
 		(uuid "b63ed53e-5f92-48d8-9c2f-e48a945a496a")
 	)
-	(hierarchical_label "T_SWCLK1"
+	(hierarchical_label "NRST"
 		(shape input)
-		(at 173.99 93.98 0)
+		(at 161.29 83.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -890,11 +602,11 @@
 			)
 			(justify left)
 		)
-		(uuid "0443b886-a55a-45f1-abb3-356dad5b2fac")
+		(uuid "27a30013-e59e-4bee-b75d-e61cb75e70f3")
 	)
 	(hierarchical_label "T_SWCLK"
 		(shape input)
-		(at 173.99 83.82 0)
+		(at 161.29 86.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -906,168 +618,19 @@
 	)
 	(hierarchical_label "T_SWDIO"
 		(shape input)
-		(at 163.83 83.82 180)
+		(at 161.29 88.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "abc0aa9f-0982-43ca-bf10-90ca018ed875")
 	)
-	(hierarchical_label "T_SWDIO1"
-		(shape input)
-		(at 163.83 93.98 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c71c0489-2ca9-4d84-bf06-1606f39618cd")
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x04")
-		(at 134.62 90.17 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "18cb7728-9443-420a-8c37-a30b17ad6db4")
-		(property "Reference" "J11"
-			(at 134.62 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "UART2"
-			(at 134.62 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
-			(at 134.62 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 134.62 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 134.62 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 134.62 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 134.62 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 134.62 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 134.62 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 134.62 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 134.62 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 134.62 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "85feff05-1b21-4198-8acb-cdfafd7b6491")
-		)
-		(pin "2"
-			(uuid "54eb4928-cf99-43af-be3d-34349e83fbdd")
-		)
-		(pin "3"
-			(uuid "2b278537-075c-4cc4-b0d1-a197d2d994b3")
-		)
-		(pin "4"
-			(uuid "bd70bc93-7eab-48f1-ab04-1b48103ffd26")
-		)
-		(instances
-			(project "airlora-kicad"
-				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/0fe76900-3fef-41a8-aa6f-27268a6f6f64"
-					(reference "J11")
-					(unit 1)
-				)
-			)
-		)
-	)
 	(symbol
 		(lib_id "power:GND")
-		(at 139.7 92.71 90)
+		(at 161.29 91.44 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1076,7 +639,7 @@
 		(fields_autoplaced yes)
 		(uuid "28bfe7c9-7462-4334-abce-f2f2533baa79")
 		(property "Reference" "#PWR062"
-			(at 146.05 92.71 0)
+			(at 167.64 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1085,7 +648,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 143.51 92.7099 90)
+			(at 165.1 91.4399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1094,7 +657,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 92.71 0)
+			(at 161.29 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1103,7 +666,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 92.71 0)
+			(at 161.29 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1112,7 +675,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 139.7 92.71 0)
+			(at 161.29 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1134,7 +697,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 139.7 90.17 270)
+		(at 161.29 93.98 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1143,7 +706,7 @@
 		(fields_autoplaced yes)
 		(uuid "3eb80f3c-358d-414c-9d1f-52e7b799c207")
 		(property "Reference" "#PWR061"
-			(at 135.89 90.17 0)
+			(at 157.48 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1152,7 +715,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 143.51 90.1699 90)
+			(at 165.1 93.9799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1161,7 +724,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 90.17 0)
+			(at 161.29 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1170,7 +733,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 90.17 0)
+			(at 161.29 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1179,7 +742,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 139.7 90.17 0)
+			(at 161.29 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1200,33 +763,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Slide_DPDT")
-		(at 168.91 88.9 0)
+		(lib_id "Connector:Screw_Terminal_01x05")
+		(at 156.21 88.9 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b55523c8-14ff-4e3b-8ab3-ba333ae9be49")
-		(property "Reference" "SW2"
-			(at 168.91 78.74 0)
+		(uuid "c63a121c-121d-488d-a35e-ad58530012a1")
+		(property "Reference" "J12"
+			(at 156.21 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SW_Slide_DPDT"
-			(at 168.91 81.28 0)
+		(property "Value" "STlink"
+			(at 156.21 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_E-Switch_EG1271_SPDT"
-			(at 182.88 83.82 0)
+		(property "Footprint" ""
+			(at 156.21 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1235,7 +798,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 168.91 88.9 0)
+			(at 156.21 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1243,64 +806,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Slide Switch, dual pole double throw"
-			(at 168.91 88.9 0)
+		(property "Description" "Generic screw terminal, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 156.21 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Sim.Device" ""
-			(at 168.91 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 168.91 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 168.91 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "a24d291e-80bd-427d-b492-24148977c3bd")
 		)
 		(pin "4"
-			(uuid "e04cb951-b728-4102-91b3-7993c28efd1b")
+			(uuid "af219516-9262-4afa-b971-ae850fe3d9d0")
 		)
 		(pin "1"
-			(uuid "8fbfd25f-7cc5-46ef-9247-78f8c0cb5ce8")
-		)
-		(pin "3"
-			(uuid "4dbd209c-2787-4c03-a926-6d866131a0bf")
-		)
-		(pin "5"
-			(uuid "fa6a248b-a606-4dd3-aadf-a4eecce6b285")
+			(uuid "f1c30898-d06f-45fd-b16e-e7d19cc16d3a")
 		)
 		(pin "2"
-			(uuid "a54196f0-58e3-49c1-b0ea-82aab0662218")
+			(uuid "73e368e1-69b0-4991-9dd8-158c3b6241e8")
+		)
+		(pin "3"
+			(uuid "ecdb934a-ecc6-418c-958f-5da633d97224")
+		)
+		(pin "5"
+			(uuid "dd5d422a-f1b7-42f6-951e-a2d27ebc536f")
 		)
 		(instances
 			(project "airlora-kicad"
 				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/0fe76900-3fef-41a8-aa6f-27268a6f6f64"
-					(reference "SW2")
+					(reference "J12")
 					(unit 1)
 				)
 			)

@@ -1239,7 +1239,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 111.76) (xy 162.56 111.76)
+			(xy 184.15 113.03) (xy 198.12 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1249,7 +1249,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 109.22) (xy 34.29 116.84)
+			(xy 74.93 110.49) (xy 74.93 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1259,7 +1259,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 109.22) (xy 86.36 116.84)
+			(xy 121.92 110.49) (xy 121.92 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1279,7 +1279,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 111.76) (xy 115.57 111.76)
+			(xy 137.16 113.03) (xy 151.13 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1289,7 +1289,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 105.41) (xy 63.5 105.41)
+			(xy 95.25 106.68) (xy 104.14 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1299,7 +1299,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 109.22) (xy 133.35 116.84)
+			(xy 168.91 110.49) (xy 168.91 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1329,7 +1329,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 105.41) (xy 63.5 111.76)
+			(xy 104.14 106.68) (xy 104.14 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1369,7 +1369,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 105.41) (xy 162.56 111.76)
+			(xy 198.12 106.68) (xy 198.12 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1379,7 +1379,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 107.95) (xy 167.64 107.95)
+			(xy 189.23 109.22) (xy 203.2 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1399,7 +1399,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 107.95) (xy 68.58 107.95)
+			(xy 95.25 109.22) (xy 109.22 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1439,7 +1439,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 105.41) (xy 115.57 111.76)
+			(xy 151.13 106.68) (xy 151.13 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1459,7 +1459,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 105.41) (xy 115.57 105.41)
+			(xy 142.24 106.68) (xy 151.13 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1479,7 +1479,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 111.76) (xy 63.5 111.76)
+			(xy 90.17 113.03) (xy 104.14 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1489,7 +1489,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 107.95) (xy 120.65 107.95)
+			(xy 142.24 109.22) (xy 156.21 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1519,7 +1519,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 105.41) (xy 162.56 105.41)
+			(xy 189.23 106.68) (xy 198.12 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1582,8 +1582,8 @@
 		(uuid 8960b47e-47e7-408c-88a2-8586592feb48)
 	)
 	(rectangle
-		(start 78.74 81.28)
-		(end 124.46 124.46)
+		(start 114.3 82.55)
+		(end 160.02 125.73)
 		(stroke
 			(width 0)
 			(type default)
@@ -1594,8 +1594,8 @@
 		(uuid 89d40147-a9f8-49e7-8014-ad99de74fe18)
 	)
 	(rectangle
-		(start 125.73 81.28)
-		(end 171.45 124.46)
+		(start 161.29 82.55)
+		(end 207.01 125.73)
 		(stroke
 			(width 0)
 			(type default)
@@ -1606,8 +1606,8 @@
 		(uuid a88dd7bf-3eb3-4dcc-8e91-0d33c3311ee6)
 	)
 	(rectangle
-		(start 26.67 81.28)
-		(end 72.39 124.46)
+		(start 67.31 82.55)
+		(end 113.03 125.73)
 		(stroke
 			(width 0)
 			(type default)
@@ -1643,7 +1643,7 @@
 	)
 	(text "O3 Sensor"
 		(exclude_from_sim no)
-		(at 49.276 89.916 0)
+		(at 89.916 91.186 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1667,7 +1667,7 @@
 	)
 	(text "NO2 ASensor "
 		(exclude_from_sim no)
-		(at 101.346 89.916 0)
+		(at 136.906 91.186 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1703,7 +1703,7 @@
 	)
 	(text "CO ASensor"
 		(exclude_from_sim no)
-		(at 148.336 89.916 0)
+		(at 183.896 91.186 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1751,7 +1751,7 @@
 	)
 	(hierarchical_label "A_CO"
 		(shape input)
-		(at 153.67 102.87 0)
+		(at 189.23 104.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1787,7 +1787,7 @@
 	)
 	(hierarchical_label "EN_ANO2"
 		(shape input)
-		(at 86.36 109.22 0)
+		(at 121.92 110.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1811,7 +1811,7 @@
 	)
 	(hierarchical_label "A_NO2"
 		(shape input)
-		(at 106.68 102.87 0)
+		(at 142.24 104.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1823,7 +1823,7 @@
 	)
 	(hierarchical_label "EN_O3"
 		(shape input)
-		(at 34.29 109.22 0)
+		(at 74.93 110.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1835,7 +1835,7 @@
 	)
 	(hierarchical_label "SCL_O3"
 		(shape input)
-		(at 54.61 102.87 0)
+		(at 95.25 104.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1895,7 +1895,7 @@
 	)
 	(hierarchical_label "SDA_O3"
 		(shape input)
-		(at 54.61 100.33 0)
+		(at 95.25 101.6 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1931,7 +1931,7 @@
 	)
 	(hierarchical_label "EN_ACO"
 		(shape input)
-		(at 133.35 109.22 0)
+		(at 168.91 110.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2291,7 +2291,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 68.58 107.95 0)
+		(at 109.22 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2299,7 +2299,7 @@
 		(dnp no)
 		(uuid "2c8c4ba1-2fd5-46e3-9c9f-5358d9b42f6f")
 		(property "Reference" "#PWR049"
-			(at 68.58 111.76 0)
+			(at 109.22 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2308,7 +2308,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 68.58 102.87 0)
+			(at 109.22 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2316,7 +2316,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 107.95 0)
+			(at 109.22 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2325,7 +2325,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 107.95 0)
+			(at 109.22 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2334,7 +2334,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 68.58 107.95 0)
+			(at 109.22 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2421,7 +2421,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 167.64 107.95 0)
+		(at 203.2 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2429,7 +2429,7 @@
 		(dnp no)
 		(uuid "35e7e0e5-9259-43c0-aa2d-882aae02a0c6")
 		(property "Reference" "#PWR056"
-			(at 167.64 111.76 0)
+			(at 203.2 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2438,7 +2438,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 167.64 102.87 0)
+			(at 203.2 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2446,7 +2446,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 107.95 0)
+			(at 203.2 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2455,7 +2455,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 107.95 0)
+			(at 203.2 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2464,7 +2464,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 167.64 107.95 0)
+			(at 203.2 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2486,7 +2486,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 90.17 116.84 90)
+		(at 125.73 118.11 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2494,7 +2494,7 @@
 		(dnp no)
 		(uuid "3692a941-ed00-4df3-850d-336dfb5beaab")
 		(property "Reference" "R22"
-			(at 91.694 113.284 90)
+			(at 127.254 114.554 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2503,7 +2503,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 91.186 115.062 90)
+			(at 126.746 116.332 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2512,7 +2512,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 90.17 118.618 90)
+			(at 125.73 119.888 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2521,7 +2521,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 90.17 116.84 0)
+			(at 125.73 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2530,7 +2530,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 90.17 116.84 0)
+			(at 125.73 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2539,7 +2539,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 90.17 116.84 0)
+			(at 125.73 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2548,7 +2548,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 90.17 116.84 0)
+			(at 125.73 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2557,7 +2557,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 90.17 116.84 0)
+			(at 125.73 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2566,7 +2566,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 90.17 116.84 0)
+			(at 125.73 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2575,7 +2575,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 90.17 116.84 0)
+			(at 125.73 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2584,7 +2584,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 90.17 116.84 0)
+			(at 125.73 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2593,7 +2593,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 90.17 116.84 0)
+			(at 125.73 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2619,7 +2619,7 @@
 	(symbol
 		(lib_name "S8050_1")
 		(lib_id "Transistor_BJT:S8050")
-		(at 146.05 116.84 0)
+		(at 181.61 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2628,7 +2628,7 @@
 		(fields_autoplaced yes)
 		(uuid "40c33082-4bf9-4d09-8ea3-a9afe9de8a3e")
 		(property "Reference" "Q7"
-			(at 151.13 115.5699 0)
+			(at 186.69 116.8399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2637,7 +2637,7 @@
 			)
 		)
 		(property "Value" "S8050"
-			(at 151.13 118.1099 0)
+			(at 186.69 119.3799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2646,7 +2646,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 151.13 118.745 0)
+			(at 186.69 120.015 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2657,7 +2657,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.unisonic.com.tw/datasheet/S8050.pdf"
-			(at 146.05 116.84 0)
+			(at 181.61 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2667,7 +2667,7 @@
 			)
 		)
 		(property "Description" "0.7A Ic, 20V Vce, Low Voltage High Current NPN Transistor, TO-92"
-			(at 146.05 116.84 0)
+			(at 181.61 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2676,7 +2676,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 146.05 116.84 0)
+			(at 181.61 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2685,7 +2685,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 146.05 116.84 0)
+			(at 181.61 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2694,7 +2694,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 146.05 116.84 0)
+			(at 181.61 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2703,7 +2703,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 146.05 116.84 0)
+			(at 181.61 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2712,7 +2712,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 146.05 116.84 0)
+			(at 181.61 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2721,7 +2721,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 146.05 116.84 0)
+			(at 181.61 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2730,7 +2730,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 146.05 116.84 0)
+			(at 181.61 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3370,7 +3370,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x03")
-		(at 101.6 105.41 180)
+		(at 137.16 106.68 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3379,7 +3379,7 @@
 		(fields_autoplaced yes)
 		(uuid "57c18b7e-fb60-4628-9302-9dfed6885fb7")
 		(property "Reference" "J6"
-			(at 101.6 96.52 0)
+			(at 137.16 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3387,7 +3387,7 @@
 			)
 		)
 		(property "Value" "A_NO2"
-			(at 101.6 99.06 0)
+			(at 137.16 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3395,7 +3395,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
-			(at 101.6 105.41 0)
+			(at 137.16 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3404,7 +3404,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 101.6 105.41 0)
+			(at 137.16 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3413,7 +3413,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 101.6 105.41 0)
+			(at 137.16 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3422,7 +3422,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 101.6 105.41 0)
+			(at 137.16 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3431,7 +3431,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 101.6 105.41 0)
+			(at 137.16 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3440,7 +3440,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 101.6 105.41 0)
+			(at 137.16 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3449,7 +3449,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 101.6 105.41 0)
+			(at 137.16 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3458,7 +3458,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 101.6 105.41 0)
+			(at 137.16 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3467,7 +3467,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 101.6 105.41 0)
+			(at 137.16 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3476,7 +3476,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 101.6 105.41 0)
+			(at 137.16 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3641,7 +3641,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 137.16 116.84 90)
+		(at 172.72 118.11 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3649,7 +3649,7 @@
 		(dnp no)
 		(uuid "6f2079ba-5e18-4f26-a36e-ba4d072b89e7")
 		(property "Reference" "R24"
-			(at 138.684 113.284 90)
+			(at 174.244 114.554 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3658,7 +3658,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 138.176 115.062 90)
+			(at 173.736 116.332 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3667,7 +3667,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 137.16 118.618 90)
+			(at 172.72 119.888 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3676,7 +3676,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 137.16 116.84 0)
+			(at 172.72 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3685,7 +3685,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 137.16 116.84 0)
+			(at 172.72 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3694,7 +3694,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 137.16 116.84 0)
+			(at 172.72 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3703,7 +3703,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 137.16 116.84 0)
+			(at 172.72 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3712,7 +3712,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 137.16 116.84 0)
+			(at 172.72 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3721,7 +3721,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 137.16 116.84 0)
+			(at 172.72 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3730,7 +3730,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 137.16 116.84 0)
+			(at 172.72 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3739,7 +3739,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 137.16 116.84 0)
+			(at 172.72 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3748,7 +3748,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 137.16 116.84 0)
+			(at 172.72 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3839,7 +3839,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 148.59 121.92 90)
+		(at 184.15 123.19 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3847,7 +3847,7 @@
 		(dnp no)
 		(uuid "7c74d5ec-bbb6-4281-914a-f1e8f3b80662")
 		(property "Reference" "#PWR055"
-			(at 154.94 121.92 0)
+			(at 190.5 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3856,7 +3856,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 151.384 121.92 90)
+			(at 186.944 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3865,7 +3865,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 121.92 0)
+			(at 184.15 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3874,7 +3874,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 121.92 0)
+			(at 184.15 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3883,7 +3883,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 148.59 121.92 0)
+			(at 184.15 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3905,7 +3905,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 38.1 116.84 90)
+		(at 78.74 118.11 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3913,7 +3913,7 @@
 		(dnp no)
 		(uuid "9bad72b8-400e-4f74-a7fe-9c09cb00200e")
 		(property "Reference" "R20"
-			(at 39.624 113.284 90)
+			(at 80.264 114.554 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3922,7 +3922,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 39.116 115.062 90)
+			(at 79.756 116.332 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3931,7 +3931,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 38.1 118.618 90)
+			(at 78.74 119.888 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3940,7 +3940,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 38.1 116.84 0)
+			(at 78.74 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3949,7 +3949,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 38.1 116.84 0)
+			(at 78.74 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3958,7 +3958,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 38.1 116.84 0)
+			(at 78.74 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3967,7 +3967,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 38.1 116.84 0)
+			(at 78.74 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3976,7 +3976,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 38.1 116.84 0)
+			(at 78.74 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3985,7 +3985,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 38.1 116.84 0)
+			(at 78.74 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3994,7 +3994,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 38.1 116.84 0)
+			(at 78.74 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4003,7 +4003,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 38.1 116.84 0)
+			(at 78.74 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4012,7 +4012,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 38.1 116.84 0)
+			(at 78.74 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4038,7 +4038,7 @@
 	(symbol
 		(lib_name "S8050_1")
 		(lib_id "Transistor_BJT:S8050")
-		(at 46.99 116.84 0)
+		(at 87.63 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4047,7 +4047,7 @@
 		(fields_autoplaced yes)
 		(uuid "b0499bd5-0f28-40f6-858f-e3a3780f3324")
 		(property "Reference" "Q3"
-			(at 52.07 115.5699 0)
+			(at 92.71 116.8399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4056,7 +4056,7 @@
 			)
 		)
 		(property "Value" "S8050"
-			(at 52.07 118.1099 0)
+			(at 92.71 119.3799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4065,7 +4065,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 52.07 118.745 0)
+			(at 92.71 120.015 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4076,7 +4076,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.unisonic.com.tw/datasheet/S8050.pdf"
-			(at 46.99 116.84 0)
+			(at 87.63 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4086,7 +4086,7 @@
 			)
 		)
 		(property "Description" "0.7A Ic, 20V Vce, Low Voltage High Current NPN Transistor, TO-92"
-			(at 46.99 116.84 0)
+			(at 87.63 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4095,7 +4095,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 46.99 116.84 0)
+			(at 87.63 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4104,7 +4104,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 46.99 116.84 0)
+			(at 87.63 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4113,7 +4113,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 46.99 116.84 0)
+			(at 87.63 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4122,7 +4122,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 46.99 116.84 0)
+			(at 87.63 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4131,7 +4131,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 46.99 116.84 0)
+			(at 87.63 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4140,7 +4140,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 46.99 116.84 0)
+			(at 87.63 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4149,7 +4149,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 46.99 116.84 0)
+			(at 87.63 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4177,7 +4177,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 49.53 121.92 90)
+		(at 90.17 123.19 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4185,7 +4185,7 @@
 		(dnp no)
 		(uuid "b8c40a40-7a9b-4b9d-a3c4-29aa19df9164")
 		(property "Reference" "#PWR048"
-			(at 55.88 121.92 0)
+			(at 96.52 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4194,7 +4194,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 52.324 121.92 90)
+			(at 92.964 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4203,7 +4203,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 121.92 0)
+			(at 90.17 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4212,7 +4212,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 121.92 0)
+			(at 90.17 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4221,7 +4221,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 49.53 121.92 0)
+			(at 90.17 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4647,7 +4647,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 120.65 107.95 0)
+		(at 156.21 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4655,7 +4655,7 @@
 		(dnp no)
 		(uuid "cd85aa2d-1c34-41a3-8057-ad903821b26a")
 		(property "Reference" "#PWR052"
-			(at 120.65 111.76 0)
+			(at 156.21 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4664,7 +4664,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 120.65 102.87 0)
+			(at 156.21 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4672,7 +4672,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 107.95 0)
+			(at 156.21 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4681,7 +4681,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 107.95 0)
+			(at 156.21 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4690,7 +4690,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 120.65 107.95 0)
+			(at 156.21 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4712,7 +4712,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 101.6 121.92 90)
+		(at 137.16 123.19 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4720,7 +4720,7 @@
 		(dnp no)
 		(uuid "cfe18b07-9afe-41fb-a4a3-f2c36630faec")
 		(property "Reference" "#PWR051"
-			(at 107.95 121.92 0)
+			(at 143.51 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4729,7 +4729,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 104.394 121.92 90)
+			(at 139.954 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4738,7 +4738,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 121.92 0)
+			(at 137.16 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4747,7 +4747,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 121.92 0)
+			(at 137.16 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4756,7 +4756,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 101.6 121.92 0)
+			(at 137.16 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4778,7 +4778,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x03")
-		(at 148.59 105.41 180)
+		(at 184.15 106.68 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4787,7 +4787,7 @@
 		(fields_autoplaced yes)
 		(uuid "d56904dd-69e9-4662-a62c-1801ef0e7189")
 		(property "Reference" "J8"
-			(at 148.59 96.52 0)
+			(at 184.15 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4795,7 +4795,7 @@
 			)
 		)
 		(property "Value" "A_CO"
-			(at 148.59 99.06 0)
+			(at 184.15 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4803,7 +4803,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
-			(at 148.59 105.41 0)
+			(at 184.15 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4812,7 +4812,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 148.59 105.41 0)
+			(at 184.15 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4821,7 +4821,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 148.59 105.41 0)
+			(at 184.15 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4830,7 +4830,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 148.59 105.41 0)
+			(at 184.15 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4839,7 +4839,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 148.59 105.41 0)
+			(at 184.15 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4848,7 +4848,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 148.59 105.41 0)
+			(at 184.15 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4857,7 +4857,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 148.59 105.41 0)
+			(at 184.15 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4866,7 +4866,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 148.59 105.41 0)
+			(at 184.15 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4875,7 +4875,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 148.59 105.41 0)
+			(at 184.15 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4884,7 +4884,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 148.59 105.41 0)
+			(at 184.15 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5049,7 +5049,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x04")
-		(at 49.53 105.41 180)
+		(at 90.17 106.68 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5058,7 +5058,7 @@
 		(fields_autoplaced yes)
 		(uuid "d8976844-ef71-472e-ac7a-fe7e9ed99c94")
 		(property "Reference" "J5"
-			(at 49.53 93.98 0)
+			(at 90.17 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5066,7 +5066,7 @@
 			)
 		)
 		(property "Value" "I2C"
-			(at 49.53 96.52 0)
+			(at 90.17 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5074,7 +5074,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_CLIK-Mate_502443-0470_1x04-1MP_P2.00mm_Vertical"
-			(at 49.53 105.41 0)
+			(at 90.17 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5083,7 +5083,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 105.41 0)
+			(at 90.17 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5092,7 +5092,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 49.53 105.41 0)
+			(at 90.17 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5101,7 +5101,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 49.53 105.41 0)
+			(at 90.17 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5110,7 +5110,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 49.53 105.41 0)
+			(at 90.17 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5119,7 +5119,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 49.53 105.41 0)
+			(at 90.17 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5128,7 +5128,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 49.53 105.41 0)
+			(at 90.17 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5137,7 +5137,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 49.53 105.41 0)
+			(at 90.17 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5146,7 +5146,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 49.53 105.41 0)
+			(at 90.17 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5155,7 +5155,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 49.53 105.41 0)
+			(at 90.17 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5187,7 +5187,7 @@
 	(symbol
 		(lib_name "S8050_1")
 		(lib_id "Transistor_BJT:S8050")
-		(at 99.06 116.84 0)
+		(at 134.62 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5196,7 +5196,7 @@
 		(fields_autoplaced yes)
 		(uuid "dad3c9bf-8874-4548-b056-c8c35225c5b5")
 		(property "Reference" "Q5"
-			(at 104.14 115.5699 0)
+			(at 139.7 116.8399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5205,7 +5205,7 @@
 			)
 		)
 		(property "Value" "S8050"
-			(at 104.14 118.1099 0)
+			(at 139.7 119.3799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5214,7 +5214,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 104.14 118.745 0)
+			(at 139.7 120.015 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5225,7 +5225,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.unisonic.com.tw/datasheet/S8050.pdf"
-			(at 99.06 116.84 0)
+			(at 134.62 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5235,7 +5235,7 @@
 			)
 		)
 		(property "Description" "0.7A Ic, 20V Vce, Low Voltage High Current NPN Transistor, TO-92"
-			(at 99.06 116.84 0)
+			(at 134.62 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5244,7 +5244,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 99.06 116.84 0)
+			(at 134.62 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5253,7 +5253,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 99.06 116.84 0)
+			(at 134.62 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5262,7 +5262,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 99.06 116.84 0)
+			(at 134.62 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5271,7 +5271,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 99.06 116.84 0)
+			(at 134.62 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5280,7 +5280,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 99.06 116.84 0)
+			(at 134.62 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5289,7 +5289,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 99.06 116.84 0)
+			(at 134.62 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5298,7 +5298,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 99.06 116.84 0)
+			(at 134.62 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)

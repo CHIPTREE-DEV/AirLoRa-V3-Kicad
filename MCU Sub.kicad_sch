@@ -4018,12 +4018,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V_HP"
-			(at 154.94 35.56 0)
+		(property "Value" "+3.3V"
+			(at 157.48 39.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -5294,12 +5295,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V_HP"
-			(at 187.96 53.34 0)
+		(property "Value" "+3.3V"
+			(at 190.5 57.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -5553,12 +5555,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V_HP"
-			(at 29.21 21.59 0)
+		(property "Value" "+3.3V"
+			(at 31.75 25.3999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
