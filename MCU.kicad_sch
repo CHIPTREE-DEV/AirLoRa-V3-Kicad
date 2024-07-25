@@ -4177,6 +4177,12 @@
 		)
 	)
 	(junction
+		(at 293.37 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09563a3d-bb7f-4e17-970b-ddbb6bdd358a")
+	)
+	(junction
 		(at 130.81 223.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4193,6 +4199,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "21ca2759-25ad-4df0-b3cc-708509417c7c")
+	)
+	(junction
+		(at 278.13 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26794494-fb09-4dde-999b-5ad347e44470")
 	)
 	(junction
 		(at 259.08 124.46)
@@ -4261,6 +4273,12 @@
 		(uuid "6c9a3c1b-e493-4e1f-b49f-534c09115189")
 	)
 	(junction
+		(at 320.04 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "719a102c-9804-4b44-8f9f-3c7ff530bb92")
+	)
+	(junction
 		(at 157.48 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4321,6 +4339,12 @@
 		(uuid "92a38f3f-945d-4e67-a1a4-7cf1e0bec29d")
 	)
 	(junction
+		(at 198.12 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "934fee48-d232-4730-a59f-cd6fa90a7c43")
+	)
+	(junction
 		(at 278.13 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4375,6 +4399,12 @@
 		(uuid "bb853d6b-110b-429d-8474-4e94709a4da9")
 	)
 	(junction
+		(at 185.42 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3c6511b-dea0-4c0b-98a7-455c8077cee5")
+	)
+	(junction
 		(at 173.99 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4385,6 +4415,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c91a47f6-3d73-4919-be9d-090c09b473b6")
+	)
+	(junction
+		(at 293.37 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc87a63a-a398-4f3f-8f37-c8eec5f109b1")
 	)
 	(junction
 		(at 163.83 57.15)
@@ -4493,10 +4529,6 @@
 		(uuid "3a5b08fc-4e9f-4840-b3eb-f33abcd1a0c0")
 	)
 	(no_connect
-		(at 215.9 147.32)
-		(uuid "6311fc94-b71d-4234-9b02-1a1719eab5da")
-	)
-	(no_connect
 		(at 218.44 147.32)
 		(uuid "6330824c-8a2e-4940-a1aa-fe1488d0a92e")
 	)
@@ -4507,6 +4539,10 @@
 	(no_connect
 		(at 223.52 147.32)
 		(uuid "9f9c2e95-c8dd-4660-a568-564b128f0145")
+	)
+	(no_connect
+		(at 241.3 93.98)
+		(uuid "a78b6f79-059f-4bc9-8939-55fc7ee47df7")
 	)
 	(no_connect
 		(at 226.06 147.32)
@@ -4567,16 +4603,6 @@
 			(type default)
 		)
 		(uuid "02637b9f-8b7c-43fe-8f4f-af564e6da5b5")
-	)
-	(wire
-		(pts
-			(xy 241.3 93.98) (xy 241.3 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02ae67dc-9af2-40f3-b139-3bcd2849f400")
 	)
 	(wire
 		(pts
@@ -4680,6 +4706,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 96.52) (xy 184.15 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12be20d3-6a0b-4f3b-b500-2d3092541563")
+	)
+	(wire
+		(pts
 			(xy 22.86 254) (xy 29.21 254)
 		)
 		(stroke
@@ -4747,6 +4783,16 @@
 			(type default)
 		)
 		(uuid "189d815e-28a4-4cf1-a936-f5b79f31c881")
+	)
+	(wire
+		(pts
+			(xy 187.96 157.48) (xy 198.12 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1be406a2-1fd1-4bd2-8e08-bbe776bac0b3")
 	)
 	(wire
 		(pts
@@ -4820,6 +4866,16 @@
 	)
 	(wire
 		(pts
+			(xy 293.37 99.06) (xy 293.37 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26acc471-7098-42e2-a228-e056deb9871e")
+	)
+	(wire
+		(pts
 			(xy 208.28 90.17) (xy 213.36 90.17)
 		)
 		(stroke
@@ -4840,6 +4896,16 @@
 	)
 	(wire
 		(pts
+			(xy 293.37 105.41) (xy 307.34 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29f80bfa-5c25-45b2-8f82-8258be07f44a")
+	)
+	(wire
+		(pts
 			(xy 278.13 88.9) (xy 278.13 90.17)
 		)
 		(stroke
@@ -4847,6 +4913,16 @@
 			(type default)
 		)
 		(uuid "2a433d7b-fdd2-4121-8578-8df61ac22223")
+	)
+	(wire
+		(pts
+			(xy 307.34 99.06) (xy 293.37 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30c412fb-8cf9-4118-83d5-1ade7f518454")
 	)
 	(wire
 		(pts
@@ -5050,6 +5126,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 96.52) (xy 139.7 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b00ea5a-3d65-49ba-ba26-5463b6943904")
+	)
+	(wire
+		(pts
 			(xy 176.53 207.01) (xy 179.07 207.01)
 		)
 		(stroke
@@ -5067,6 +5153,16 @@
 			(type default)
 		)
 		(uuid "4e2b4bee-8077-4f8f-a424-9d53dc3e852d")
+	)
+	(wire
+		(pts
+			(xy 215.9 156.21) (xy 201.93 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "506fb026-01cf-4dfe-b430-0822d5c49af8")
 	)
 	(wire
 		(pts
@@ -5090,16 +5186,6 @@
 	)
 	(wire
 		(pts
-			(xy 293.37 99.06) (xy 293.37 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53f31394-4f2a-4beb-b100-ff60da83009a")
-	)
-	(wire
-		(pts
 			(xy 201.93 111.76) (xy 203.2 111.76)
 		)
 		(stroke
@@ -5117,6 +5203,16 @@
 			(type default)
 		)
 		(uuid "5446b6da-a0bc-42e1-b340-1cb25c982128")
+	)
+	(wire
+		(pts
+			(xy 287.02 104.14) (xy 278.13 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54b7c66a-1f8e-4a26-941a-63198436f435")
 	)
 	(wire
 		(pts
@@ -5330,6 +5426,16 @@
 	)
 	(wire
 		(pts
+			(xy 320.04 105.41) (xy 320.04 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a53a700-06de-4a94-ab56-9fa84c3ba67d")
+	)
+	(wire
+		(pts
 			(xy 259.08 198.12) (xy 259.08 207.01)
 		)
 		(stroke
@@ -5440,6 +5546,16 @@
 	)
 	(wire
 		(pts
+			(xy 287.02 99.06) (xy 287.02 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a6c777d-3e95-4621-92ea-4e9c7de34a5b")
+	)
+	(wire
+		(pts
 			(xy 307.34 127) (xy 312.42 127)
 		)
 		(stroke
@@ -5447,6 +5563,16 @@
 			(type default)
 		)
 		(uuid "7bc794ef-ef18-4e81-b087-399c74ab26f1")
+	)
+	(wire
+		(pts
+			(xy 180.34 157.48) (xy 176.53 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cc84efb-882f-432c-ab26-0b554cd0e42f")
 	)
 	(wire
 		(pts
@@ -5510,13 +5636,13 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 86.36) (xy 255.27 86.36)
+			(xy 314.96 105.41) (xy 320.04 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "84764a3f-053d-450d-abc9-6920ceb4e45f")
+		(uuid "85894798-6d48-470e-8d32-1a46669e8c3c")
 	)
 	(wire
 		(pts
@@ -5567,6 +5693,16 @@
 			(type default)
 		)
 		(uuid "8c186b0e-6998-4d32-a25b-36ea797efed9")
+	)
+	(wire
+		(pts
+			(xy 314.96 99.06) (xy 320.04 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ddac5ab-235d-4413-ba90-718faee33cfb")
 	)
 	(wire
 		(pts
@@ -5770,6 +5906,16 @@
 	)
 	(wire
 		(pts
+			(xy 293.37 99.06) (xy 287.02 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7f1ff86-2abd-439b-8677-3aabafc0fe6a")
+	)
+	(wire
+		(pts
 			(xy 238.76 80.01) (xy 278.13 80.01)
 		)
 		(stroke
@@ -5807,6 +5953,16 @@
 			(type default)
 		)
 		(uuid "a9d9b7b7-8176-47a4-8519-4cacd46ddc74")
+	)
+	(wire
+		(pts
+			(xy 176.53 154.94) (xy 176.53 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa3b2cdf-f765-4db9-bd00-227cc6a65257")
 	)
 	(wire
 		(pts
@@ -5960,6 +6116,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 93.98) (xy 139.7 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7ca4f18-fd3d-4fa5-9019-eccf45ac239f")
+	)
+	(wire
+		(pts
 			(xy 213.36 90.17) (xy 213.36 93.98)
 		)
 		(stroke
@@ -6070,6 +6236,16 @@
 	)
 	(wire
 		(pts
+			(xy 320.04 95.25) (xy 320.04 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c201cdc5-7db5-4a44-9277-c52cf02404c0")
+	)
+	(wire
+		(pts
 			(xy 220.98 151.13) (xy 220.98 148.59)
 		)
 		(stroke
@@ -6147,6 +6323,26 @@
 			(type default)
 		)
 		(uuid "cf75f27a-5ad0-4e89-bb44-dfa258aeeb4a")
+	)
+	(wire
+		(pts
+			(xy 184.15 105.41) (xy 185.42 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3701f08-f4b4-4e2a-9a83-9d67d8e38a06")
+	)
+	(wire
+		(pts
+			(xy 151.13 96.52) (xy 184.15 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d771c3a3-11dc-4af6-8d7a-fdadf964b90a")
 	)
 	(wire
 		(pts
@@ -6397,6 +6593,16 @@
 			(type default)
 		)
 		(uuid "e6fb4cd2-f5f7-454f-8db4-d7532c375577")
+	)
+	(wire
+		(pts
+			(xy 215.9 147.32) (xy 215.9 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e79f0fe9-beac-42b2-8620-4b002d13b707")
 	)
 	(wire
 		(pts
@@ -6728,17 +6934,6 @@
 		)
 		(uuid "50907cd2-f5f8-4420-af54-87a0a421ec7c")
 	)
-	(label "FE_CTRL1"
-		(at 255.27 86.36 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "60a8144a-b0b7-4039-a1c0-1108a87bc9ae")
-	)
 	(label "PB5"
 		(at 261.62 182.88 0)
 		(fields_autoplaced yes)
@@ -6760,6 +6955,17 @@
 			(justify left bottom)
 		)
 		(uuid "6a9b2019-6da3-4c3c-a0f6-77bdf4255ed5")
+	)
+	(label "FE_CTRL1"
+		(at 201.93 156.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "884725f8-7f9f-438f-a247-5f037cb9f7ff")
 	)
 	(label "UART2_RX"
 		(at 146.05 118.11 0)
@@ -7361,6 +7567,72 @@
 			(project "airlora-kicad"
 				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/c23b99ec-411c-4b40-a8bc-26abb1dec7f9"
 					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 139.7 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f3e8038-1e37-423c-9c3d-8d5a2518852d")
+		(property "Reference" "#PWR010"
+			(at 139.7 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 139.7 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 139.7 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "20758fc1-bef3-4d70-b66d-3dd1f5be008f")
+		)
+		(instances
+			(project "airlora-kicad"
+				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/c23b99ec-411c-4b40-a8bc-26abb1dec7f9"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -10440,6 +10712,138 @@
 			(project "airlora-kicad"
 				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/c23b99ec-411c-4b40-a8bc-26abb1dec7f9"
 					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 184.15 157.48 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "50991bc7-7aa1-423e-9bbb-2a6a45a628ef")
+		(property "Reference" "R27"
+			(at 182.118 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7K"
+			(at 181.61 159.512 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 184.15 155.702 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 184.15 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 184.15 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 184.15 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 184.15 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 184.15 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 184.15 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 184.15 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 184.15 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 184.15 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "03a1cdb6-9be0-472b-8806-9ba19f1e3a3b")
+		)
+		(pin "2"
+			(uuid "d9fa4479-37c5-4597-9108-fe45d21f59ad")
+		)
+		(instances
+			(project "airlora-kicad"
+				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/c23b99ec-411c-4b40-a8bc-26abb1dec7f9"
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -14167,6 +14571,138 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 147.32 96.52 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a79f0446-0d45-40ae-8a08-2bed0e4c4d78")
+		(property "Reference" "R24"
+			(at 145.288 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7K"
+			(at 144.78 98.552 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 147.32 94.742 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 147.32 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 147.32 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 147.32 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 147.32 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 147.32 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 147.32 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 147.32 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 147.32 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "762dee6f-4f41-484e-b47d-8232d3a183e5")
+		)
+		(pin "2"
+			(uuid "ed567c0d-bad7-48d5-a293-4db7b581071c")
+		)
+		(instances
+			(project "airlora-kicad"
+				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/c23b99ec-411c-4b40-a8bc-26abb1dec7f9"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 149.86 111.76 90)
 		(mirror x)
@@ -15825,6 +16361,138 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 311.15 105.41 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c60b7ab7-f3e5-4e14-b56e-dca2c9dd9d1e")
+		(property "Reference" "R16"
+			(at 313.182 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7K"
+			(at 313.69 103.378 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 311.15 107.188 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 311.15 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 311.15 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 311.15 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 311.15 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 311.15 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 311.15 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 311.15 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 311.15 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 311.15 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf13e40a-f136-481c-a286-a92bae6abff4")
+		)
+		(pin "2"
+			(uuid "d6f43e30-b169-4a4e-85d0-03ad8d6afcdd")
+		)
+		(instances
+			(project "airlora-kicad"
+				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/c23b99ec-411c-4b40-a8bc-26abb1dec7f9"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 278.13 90.17 0)
 		(unit 1)
@@ -16156,6 +16824,138 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 311.15 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "da271d9f-b547-42a8-8e86-9878a47fccf1")
+		(property "Reference" "R22"
+			(at 313.182 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7K"
+			(at 313.69 97.028 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 311.15 100.838 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 311.15 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 311.15 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 311.15 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 311.15 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 311.15 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 311.15 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 311.15 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 311.15 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 311.15 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52128f45-eebb-48b5-8509-99973c08f1fa")
+		)
+		(pin "2"
+			(uuid "e5b08a72-a35d-444c-8941-5e2cf589ac91")
+		)
+		(instances
+			(project "airlora-kicad"
+				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/c23b99ec-411c-4b40-a8bc-26abb1dec7f9"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L")
 		(at 223.52 87.63 180)
 		(unit 1)
@@ -16349,6 +17149,138 @@
 			(project "airlora-kicad"
 				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/c23b99ec-411c-4b40-a8bc-26abb1dec7f9"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 176.53 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de90b911-d642-4288-b14e-48b056e23319")
+		(property "Reference" "#PWR051"
+			(at 176.53 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 176.53 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 176.53 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "12ea564c-ca13-479a-a844-0cc54925fa32")
+		)
+		(instances
+			(project "airlora-kicad"
+				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/c23b99ec-411c-4b40-a8bc-26abb1dec7f9"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 320.04 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df449a44-360e-425d-bd57-04d352b2802b")
+		(property "Reference" "#PWR09"
+			(at 320.04 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 320.04 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 320.04 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 320.04 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 320.04 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d085b46b-8425-4a6a-899e-d516daae7f40")
+		)
+		(instances
+			(project "airlora-kicad"
+				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/c23b99ec-411c-4b40-a8bc-26abb1dec7f9"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
