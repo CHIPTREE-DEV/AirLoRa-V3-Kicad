@@ -15,6 +15,12 @@
 		(uuid "0518c88f-b6d1-43ee-8a70-6bfa7062bf58")
 	)
 	(junction
+		(at 170.18 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0874a5f8-0efd-48c0-9d7d-3df0eaf5e9ca")
+	)
+	(junction
 		(at 173.99 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -39,12 +45,6 @@
 		(uuid "9ba4332c-3672-4983-9734-83a24cc96a2c")
 	)
 	(junction
-		(at 170.18 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bc3aecda-d3b0-4192-abbe-bd91dfe7f29c")
-	)
-	(junction
 		(at 176.53 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -67,6 +67,14 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f5e63ff3-56ca-4c73-8391-5762ab90ab5e")
+	)
+	(no_connect
+		(at 156.21 93.98)
+		(uuid "88cf58e1-cf3b-40d6-bca0-13b04cfef1d3")
+	)
+	(no_connect
+		(at 156.21 96.52)
+		(uuid "adbde939-bff6-4ecd-9299-134750d8e860")
 	)
 	(wire
 		(pts
@@ -107,16 +115,6 @@
 			(type default)
 		)
 		(uuid "161fe803-f9da-400e-a83f-e1a95439863e")
-	)
-	(wire
-		(pts
-			(xy 179.07 78.74) (xy 170.18 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18fb4c09-4be3-4245-9e76-6638b11ea6bf")
 	)
 	(wire
 		(pts
@@ -167,6 +165,16 @@
 			(type default)
 		)
 		(uuid "3b4b83d1-4eeb-41a3-9bf7-c64247a4f307")
+	)
+	(wire
+		(pts
+			(xy 170.18 81.28) (xy 170.18 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e6a01d2-5d67-4f0d-bb3b-0d698c489a35")
 	)
 	(wire
 		(pts
@@ -240,16 +248,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 78.74) (xy 170.18 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81c79939-a3fc-452e-94ee-24a929f4f4bf")
-	)
-	(wire
-		(pts
 			(xy 181.61 99.06) (xy 170.18 99.06)
 		)
 		(stroke
@@ -260,7 +258,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 78.74) (xy 170.18 90.17)
+			(xy 170.18 72.39) (xy 170.18 81.28)
 		)
 		(stroke
 			(width 0)
@@ -290,7 +288,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 81.28) (xy 179.07 81.28)
+			(xy 170.18 81.28) (xy 181.61 81.28)
 		)
 		(stroke
 			(width 0)
@@ -367,16 +365,6 @@
 			(type default)
 		)
 		(uuid "d236feed-3efa-4710-8c07-1905ea021a56")
-	)
-	(wire
-		(pts
-			(xy 179.07 81.28) (xy 179.07 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d36cb439-7a38-425f-86cc-00aac282d94b")
 	)
 	(wire
 		(pts
@@ -785,7 +773,7 @@
 			)
 			(uuid "cd1b4093-ea69-4731-8f85-0ccd56f6a186")
 		)
-		(pin "UART2_TX" input
+		(pin "UART1_TX" input
 			(at 156.21 74.93 0)
 			(effects
 				(font
@@ -795,7 +783,7 @@
 			)
 			(uuid "ea50c663-ab6b-4a32-bd2d-2fbda7abe8a5")
 		)
-		(pin "UART2_RX" input
+		(pin "UART1_RX" input
 			(at 156.21 77.47 0)
 			(effects
 				(font
