@@ -788,7 +788,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical"
 			(at 156.21 88.9 0)
 			(effects
 				(font

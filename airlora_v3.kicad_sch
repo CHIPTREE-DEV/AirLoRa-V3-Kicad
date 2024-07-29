@@ -813,16 +813,6 @@
 			)
 			(uuid "fb9a1c5b-f9e3-4b73-b0d5-345dab763524")
 		)
-		(pin "PB7" input
-			(at 156.21 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "6137239e-bf58-4d3c-8526-fcfcd3ddfde8")
-		)
 		(pin "SCL3" input
 			(at 156.21 96.52 0)
 			(effects
@@ -832,6 +822,16 @@
 				(justify right)
 			)
 			(uuid "8722fe1b-d1e1-4112-bb98-461ae381e740")
+		)
+		(pin "PB3" input
+			(at 156.21 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "185313af-6439-4d78-a7b3-c8663661b77f")
 		)
 		(instances
 			(project "airlora-kicad"
