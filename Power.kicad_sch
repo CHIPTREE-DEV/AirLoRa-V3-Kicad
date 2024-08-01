@@ -2211,6 +2211,10 @@
 		(color 0 0 0 0)
 		(uuid "ffe4205a-9faa-4653-9ece-2502f0d48403")
 	)
+	(no_connect
+		(at 132.08 71.12)
+		(uuid "7b8528fc-ca95-4a1a-8d6b-de9d0bbe4eb9")
+	)
 	(wire
 		(pts
 			(xy 179.07 68.58) (xy 179.07 78.74)
@@ -2250,16 +2254,6 @@
 			(type default)
 		)
 		(uuid "09ae6ccf-3755-4ea5-ab73-2430645ea551")
-	)
-	(wire
-		(pts
-			(xy 132.08 74.93) (xy 132.08 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d74c942-4e51-418b-9054-860a0ca98c8a")
 	)
 	(wire
 		(pts
@@ -2593,16 +2587,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 83.82) (xy 132.08 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7eb8ff44-a90b-4521-968e-881e429994cd")
-	)
-	(wire
-		(pts
 			(xy 161.29 66.04) (xy 163.83 66.04)
 		)
 		(stroke
@@ -2680,16 +2664,6 @@
 			(type default)
 		)
 		(uuid "948110b5-d192-4565-ba00-80d25c10f775")
-	)
-	(wire
-		(pts
-			(xy 179.07 64.77) (xy 179.07 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96acf53a-8324-4f9f-bbdf-e0e03c5cceb8")
 	)
 	(wire
 		(pts
@@ -3089,39 +3063,16 @@
 		)
 		(uuid "ee920a1c-94a2-417a-ad79-4289eb3871ed")
 	)
-	(global_label "a"
-		(shape input)
-		(at 179.07 64.77 0)
+	(label "SW"
+		(at 179.07 68.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
-		(uuid "fb8ebfb3-733f-45a9-9dcb-c1d8a59ea2c8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 183.2042 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(hierarchical_label "En"
-		(shape input)
-		(at 132.08 83.82 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "44e57c2e-9549-4f05-801d-1e002ce22fc7")
+		(uuid "dce5a36d-749d-4946-bf82-fe196cb2003f")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -5273,138 +5224,6 @@
 			(project "airlora-kicad"
 				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/af8bb3f5-67b6-4471-83fd-9297b14489a9"
 					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 132.08 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7ac435c5-bba3-4f9d-9451-ab726d0d7514")
-		(property "Reference" "R1"
-			(at 133.35 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k"
-			(at 133.35 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 130.302 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 132.08 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 132.08 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 132.08 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 132.08 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 132.08 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 132.08 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 132.08 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 132.08 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 132.08 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8661092e-43cd-499b-ae4f-c73a3a95bb05")
-		)
-		(pin "2"
-			(uuid "e337ba2a-8741-4f56-8191-cc793e5dff2a")
-		)
-		(instances
-			(project "airlora-kicad"
-				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/af8bb3f5-67b6-4471-83fd-9297b14489a9"
-					(reference "R1")
 					(unit 1)
 				)
 			)

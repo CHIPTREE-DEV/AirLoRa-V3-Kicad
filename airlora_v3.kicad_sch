@@ -684,16 +684,6 @@
 				(justify left top)
 			)
 		)
-		(pin "En" input
-			(at 86.36 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "21c34e74-ff41-404b-a91b-1119f59c5af0")
-		)
 		(instances
 			(project "airlora-kicad"
 				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314"
