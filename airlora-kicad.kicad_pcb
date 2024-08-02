@@ -2691,7 +2691,7 @@
 		(descr "wire loop with bead as test point, loop diameter 1.8mm, hole diameter 1.0mm")
 		(tags "test point wire loop bead")
 		(property "Reference" "TP2"
-			(at 0.7 2.5 0)
+			(at -0.042058 2.462858 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "c467fddf-4876-42e1-a81f-3e6903371f14")
@@ -14103,6 +14103,17 @@
 			(pintype "power_in")
 			(uuid "e58387df-fc0e-41a5-9f6c-0e05f7ecb7b3")
 		)
+		(model "${KIPRJMOD}/kicad_library/3D/NT2016SA-32M-END4263A.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 90)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
@@ -14416,7 +14427,7 @@
 		(descr "wire loop with bead as test point, loop diameter 1.8mm, hole diameter 1.0mm")
 		(tags "test point wire loop bead")
 		(property "Reference" "TP1"
-			(at 0.7 2.5 0)
+			(at -0.042058 2.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "a6f3ef5d-63fc-4545-ac99-5c393cb8f518")
@@ -22837,15 +22848,15 @@
 			(pintype "passive")
 			(uuid "fed00881-b936-4730-bff6-2b7fe3712788")
 		)
-		(model "BALFHB-WL-05D3.stp"
+		(model "${KIPRJMOD}/kicad_library/3D/BALFHB-WL-02D3.stp"
 			(offset
-				(xyz 0 0 0.5299999634)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 90 0 0)
+				(xyz 0 0 180)
 			)
 		)
 	)
