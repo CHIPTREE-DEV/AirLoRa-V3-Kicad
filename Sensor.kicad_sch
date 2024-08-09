@@ -900,142 +900,50 @@
 				)
 			)
 		)
-		(symbol "power:GND"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
+	)
+	(junction
+		(at 73.66 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30563e14-a179-4996-9c32-5fd7a800bb41")
+	)
+	(junction
+		(at 102.87 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "342876a6-47a5-481b-ad78-9acaa3e7b6e5")
+	)
+	(junction
+		(at 140.97 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "627fbd78-a28c-42e4-afc2-dc115ed188c4")
+	)
+	(junction
+		(at 194.31 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8b115ec-e5df-4438-bee8-5bbb6f1fad04")
 	)
 	(wire
 		(pts
-			(xy 74.93 110.49) (xy 74.93 118.11)
+			(xy 102.87 106.68) (xy 102.87 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0aa77125-57f3-4b54-96a8-0bbbce8d4f97")
+		(uuid "0c66995f-c6a5-4764-aa5b-9778a9917b5a")
 	)
 	(wire
 		(pts
-			(xy 116.84 60.96) (xy 116.84 69.85)
+			(xy 102.87 59.69) (xy 73.66 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "18187012-978a-4497-85fc-302c03305b1e")
-	)
-	(wire
-		(pts
-			(xy 95.25 106.68) (xy 104.14 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f16a572-53f6-4cb0-8b5c-391d7745c57a")
-	)
-	(wire
-		(pts
-			(xy 166.37 62.23) (xy 166.37 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d035de6-413b-4dac-b973-3ce3d193b9d3")
+		(uuid "29c22e8c-9296-4751-86dd-00ae81779bfc")
 	)
 	(wire
 		(pts
@@ -1046,16 +954,6 @@
 			(type default)
 		)
 		(uuid "2feb5508-6063-49b3-87d0-6ff7704ee89b")
-	)
-	(wire
-		(pts
-			(xy 104.14 106.68) (xy 104.14 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3751a109-fdbd-4e41-ae19-af141c4530e1")
 	)
 	(wire
 		(pts
@@ -1079,13 +977,13 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 64.77) (xy 245.11 64.77)
+			(xy 140.97 64.77) (xy 194.31 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "57df15e4-a1d5-452d-8087-ffcf02b80052")
+		(uuid "811c0c05-5c84-4673-8fbb-4af0b490f211")
 	)
 	(wire
 		(pts
@@ -1109,7 +1007,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 64.77) (xy 140.97 64.77)
+			(xy 102.87 64.77) (xy 140.97 64.77)
 		)
 		(stroke
 			(width 0)
@@ -1126,6 +1024,16 @@
 			(type default)
 		)
 		(uuid "8ff7fa90-8473-4eaf-a300-a04266d6b457")
+	)
+	(wire
+		(pts
+			(xy 95.25 106.68) (xy 102.87 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "925923d1-9a59-4b32-b260-b06519f0852c")
 	)
 	(wire
 		(pts
@@ -1159,13 +1067,13 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 113.03) (xy 104.14 113.03)
+			(xy 102.87 64.77) (xy 102.87 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c87ff5d7-07d8-4b80-962d-2dc92f499ed5")
+		(uuid "c65b6d2a-5962-496f-a4cb-8fd14c586f6f")
 	)
 	(wire
 		(pts
@@ -1179,6 +1087,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 64.77) (xy 245.11 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e59c3475-cf9d-45a4-81c5-63fcfb259a99")
+	)
+	(wire
+		(pts
 			(xy 140.97 64.77) (xy 140.97 58.42)
 		)
 		(stroke
@@ -1189,16 +1107,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 64.77) (xy 181.61 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed0d3847-996a-48ae-804c-7bd1ce7a87c8")
-	)
-	(wire
-		(pts
 			(xy 137.16 60.96) (xy 147.32 60.96)
 		)
 		(stroke
@@ -1206,16 +1114,6 @@
 			(type default)
 		)
 		(uuid "efce6f26-e4b3-40de-836e-dbb206589e71")
-	)
-	(wire
-		(pts
-			(xy 215.9 62.23) (xy 215.9 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f97f2681-1396-4501-bbf7-10fcc878b072")
 	)
 	(rectangle
 		(start 208.28 34.29)
@@ -1397,18 +1295,6 @@
 		)
 		(uuid "6d5471c5-669d-4aea-9cb5-4b2493163490")
 	)
-	(hierarchical_label "EN_O3"
-		(shape input)
-		(at 74.93 110.49 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8850dea4-1c02-4a26-bf49-542b873e9155")
-	)
 	(hierarchical_label "SCL_O3"
 		(shape input)
 		(at 95.25 104.14 0)
@@ -1457,18 +1343,6 @@
 		)
 		(uuid "d0c5fb24-6cfc-4640-bae5-7c1d5c9f8beb")
 	)
-	(hierarchical_label "EN_N02"
-		(shape input)
-		(at 166.37 62.23 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "dd033e7a-1379-4a96-8d08-9c25fc38a2c0")
-	)
 	(hierarchical_label "SDA_O3"
 		(shape input)
 		(at 95.25 101.6 0)
@@ -1480,30 +1354,6 @@
 			(justify left)
 		)
 		(uuid "e4c847ed-1436-4b6d-a750-ccaa8824311b")
-	)
-	(hierarchical_label "EN_PM"
-		(shape input)
-		(at 116.84 60.96 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e78c7fe9-431d-4282-b319-d9bb8ca24b01")
-	)
-	(hierarchical_label "EN_CO"
-		(shape input)
-		(at 215.9 62.23 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e8842458-5bb8-413a-90a0-60d65a4c585c")
 	)
 	(hierarchical_label "SDA_SHT"
 		(shape input)
@@ -1577,146 +1427,6 @@
 			(project "airlora-kicad"
 				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/51adec1c-c556-4645-b650-96b50e0dcbbc"
 					(reference "#PWR058")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "S8050_1")
-		(lib_id "Transistor_BJT:S8050")
-		(at 228.6 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "12109aa6-e9b0-4216-b2cc-f95a95f03556")
-		(property "Reference" "Q9"
-			(at 233.68 68.5799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "S8050"
-			(at 233.68 71.1199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 233.68 71.755 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.unisonic.com.tw/datasheet/S8050.pdf"
-			(at 228.6 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.7A Ic, 20V Vce, Low Voltage High Current NPN Transistor, TO-92"
-			(at 228.6 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 228.6 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 228.6 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 228.6 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 228.6 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 228.6 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 228.6 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 228.6 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "05fded66-f04d-4b4d-9e5f-8dbba90124c8")
-		)
-		(pin "3"
-			(uuid "e0913bcf-685b-4d45-b66c-58d00f59a981")
-		)
-		(pin "1"
-			(uuid "c9bbda3f-12ea-40c8-8460-c5c216716474")
-		)
-		(instances
-			(project "airlora-kicad"
-				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/51adec1c-c556-4645-b650-96b50e0dcbbc"
-					(reference "Q9")
 					(unit 1)
 				)
 			)
@@ -2258,344 +1968,6 @@
 		)
 	)
 	(symbol
-		(lib_name "S8050_1")
-		(lib_id "Transistor_BJT:S8050")
-		(at 129.54 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4dbb2ca2-a24a-4d78-8cac-431950ae235b")
-		(property "Reference" "Q6"
-			(at 134.62 68.5799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "S8050"
-			(at 134.62 71.1199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 134.62 71.755 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.unisonic.com.tw/datasheet/S8050.pdf"
-			(at 129.54 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.7A Ic, 20V Vce, Low Voltage High Current NPN Transistor, TO-92"
-			(at 129.54 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 129.54 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 129.54 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 129.54 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 129.54 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 129.54 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 129.54 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 129.54 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b18e32f8-cb3f-4867-9120-6a31b7093e5c")
-		)
-		(pin "3"
-			(uuid "79e62713-3b96-4b09-8f5c-b3212927631f")
-		)
-		(pin "1"
-			(uuid "10563de6-6bc3-425f-a55e-4459ba09b9a3")
-		)
-		(instances
-			(project "airlora-kicad"
-				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/51adec1c-c556-4645-b650-96b50e0dcbbc"
-					(reference "Q6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 120.65 69.85 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "543af898-2ab3-40d6-a080-ad252ea92bf6")
-		(property "Reference" "R23"
-			(at 122.174 66.294 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1K"
-			(at 121.666 68.072 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 120.65 71.628 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 120.65 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 120.65 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 120.65 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 120.65 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 120.65 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 120.65 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 120.65 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 120.65 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 120.65 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "23807602-249a-49ba-aa90-b7352c1f1d72")
-		)
-		(pin "2"
-			(uuid "631acb36-5a69-4187-97cd-fe888711dbe1")
-		)
-		(instances
-			(project "airlora-kicad"
-				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/51adec1c-c556-4645-b650-96b50e0dcbbc"
-					(reference "R23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 181.61 74.93 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "55366376-2d16-4aba-ad1d-1c80fae8e47f")
-		(property "Reference" "#PWR057"
-			(at 187.96 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 184.404 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 181.61 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 181.61 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 181.61 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "886e19c5-8084-4ffe-8668-eb852c6ff089")
-		)
-		(instances
-			(project "airlora-kicad"
-				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/51adec1c-c556-4645-b650-96b50e0dcbbc"
-					(reference "#PWR057")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Screw_Terminal_01x04")
 		(at 43.18 59.69 180)
 		(unit 1)
@@ -2727,410 +2099,6 @@
 			(project "airlora-kicad"
 				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/51adec1c-c556-4645-b650-96b50e0dcbbc"
 					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 132.08 74.93 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7732665c-3dea-433b-bc57-e466034b312c")
-		(property "Reference" "#PWR053"
-			(at 138.43 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 134.874 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.08 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 132.08 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b004982d-682c-4dbb-bb72-ceaf7b4f16f7")
-		)
-		(instances
-			(project "airlora-kicad"
-				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/51adec1c-c556-4645-b650-96b50e0dcbbc"
-					(reference "#PWR053")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 78.74 118.11 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9bad72b8-400e-4f74-a7fe-9c09cb00200e")
-		(property "Reference" "R20"
-			(at 80.264 114.554 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1K"
-			(at 79.756 116.332 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 78.74 119.888 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 78.74 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 78.74 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 78.74 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 78.74 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 78.74 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 78.74 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 78.74 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 78.74 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 78.74 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1630c8f6-0c12-44fb-ac6b-bdc968ef5d4f")
-		)
-		(pin "2"
-			(uuid "51d0a888-56c2-43c6-9e67-13dc50853f44")
-		)
-		(instances
-			(project "airlora-kicad"
-				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/51adec1c-c556-4645-b650-96b50e0dcbbc"
-					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "S8050_1")
-		(lib_id "Transistor_BJT:S8050")
-		(at 87.63 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b0499bd5-0f28-40f6-858f-e3a3780f3324")
-		(property "Reference" "Q3"
-			(at 92.71 116.8399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "S8050"
-			(at 92.71 119.3799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 92.71 120.015 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.unisonic.com.tw/datasheet/S8050.pdf"
-			(at 87.63 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.7A Ic, 20V Vce, Low Voltage High Current NPN Transistor, TO-92"
-			(at 87.63 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 87.63 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 87.63 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 87.63 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 87.63 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 87.63 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 87.63 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 87.63 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "43397cb7-ae11-41eb-bc80-158828c63a17")
-		)
-		(pin "3"
-			(uuid "016032aa-69cb-4846-81d0-f1c6346aaa2d")
-		)
-		(pin "1"
-			(uuid "acc2fd38-2640-418e-97ad-6c647ec2a80c")
-		)
-		(instances
-			(project "airlora-kicad"
-				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/51adec1c-c556-4645-b650-96b50e0dcbbc"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 90.17 123.19 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b8c40a40-7a9b-4b9d-a3c4-29aa19df9164")
-		(property "Reference" "#PWR048"
-			(at 96.52 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 92.964 123.19 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 90.17 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 90.17 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 90.17 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ab475fe1-a806-409a-9c66-25ceb212e618")
-		)
-		(instances
-			(project "airlora-kicad"
-				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/51adec1c-c556-4645-b650-96b50e0dcbbc"
-					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -3294,7 +2262,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "10K"
 			(at 70.866 51.562 90)
 			(effects
 				(font
@@ -3403,138 +2371,6 @@
 			(project "airlora-kicad"
 				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/51adec1c-c556-4645-b650-96b50e0dcbbc"
 					(reference "R21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 219.71 69.85 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cb294fe0-dd6c-4dff-a13f-6bad5bfe73aa")
-		(property "Reference" "R26"
-			(at 221.234 66.294 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1K"
-			(at 220.726 68.072 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 219.71 71.628 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 219.71 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 219.71 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 219.71 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 219.71 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 219.71 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 219.71 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 219.71 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 219.71 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 219.71 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f70f271e-f2c8-4d2c-abd2-7fd727d023e9")
-		)
-		(pin "2"
-			(uuid "dc6818b6-0566-4c8c-b738-968e5b9555b9")
-		)
-		(instances
-			(project "airlora-kicad"
-				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/51adec1c-c556-4645-b650-96b50e0dcbbc"
-					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -3815,146 +2651,6 @@
 		)
 	)
 	(symbol
-		(lib_name "S8050_1")
-		(lib_id "Transistor_BJT:S8050")
-		(at 179.07 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e07b27fe-177a-478c-9b46-563b3d067e9f")
-		(property "Reference" "Q8"
-			(at 184.15 68.5799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "S8050"
-			(at 184.15 71.1199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 184.15 71.755 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.unisonic.com.tw/datasheet/S8050.pdf"
-			(at 179.07 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.7A Ic, 20V Vce, Low Voltage High Current NPN Transistor, TO-92"
-			(at 179.07 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 179.07 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 179.07 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 179.07 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 179.07 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 179.07 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 179.07 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 179.07 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c3f12c08-e3f2-41fc-a0da-7839b095fc1e")
-		)
-		(pin "3"
-			(uuid "adc8db16-170a-4d59-afe0-b53030917dde")
-		)
-		(pin "1"
-			(uuid "c711da14-1f56-4325-a294-cc4a3eda2755")
-		)
-		(instances
-			(project "airlora-kicad"
-				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/51adec1c-c556-4645-b650-96b50e0dcbbc"
-					(reference "Q8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 250.19 60.96 0)
 		(unit 1)
@@ -4014,204 +2710,6 @@
 			(project "airlora-kicad"
 				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/51adec1c-c556-4645-b650-96b50e0dcbbc"
 					(reference "#PWR060")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 170.18 69.85 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f313d079-8f80-4566-ab0d-63f7be7f64d7")
-		(property "Reference" "R25"
-			(at 171.704 66.294 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1K"
-			(at 171.196 68.072 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 170.18 71.628 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 170.18 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 170.18 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 170.18 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 170.18 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 170.18 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 170.18 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 170.18 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 170.18 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 170.18 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "125d08e1-ef60-444d-aa61-44769ebf14e5")
-		)
-		(pin "2"
-			(uuid "cab75045-4928-410b-944c-98efc82887b1")
-		)
-		(instances
-			(project "airlora-kicad"
-				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/51adec1c-c556-4645-b650-96b50e0dcbbc"
-					(reference "R25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 231.14 74.93 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fb9e0447-62fe-432b-ba7b-06fedddb2e3f")
-		(property "Reference" "#PWR059"
-			(at 237.49 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 233.934 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 231.14 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 231.14 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 231.14 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "046038f8-9701-4ba6-87bb-32e3ea6e3a7f")
-		)
-		(instances
-			(project "airlora-kicad"
-				(path "/59d971df-d6c1-4ef7-a085-bf08b7b16047/be77b740-d58b-414b-97ce-61f1d1685314/51adec1c-c556-4645-b650-96b50e0dcbbc"
-					(reference "#PWR059")
 					(unit 1)
 				)
 			)
